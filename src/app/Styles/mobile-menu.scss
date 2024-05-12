@@ -1,0 +1,43 @@
+@media(min-width:800px) {
+    .mobile-menu{
+        display: none;
+    }
+}
+
+.mobile-menu{
+    transition: .2s;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    opacity: 0;
+    z-index: 1000;
+    background-color: rgba(62, 62, 62);
+    color: #f9cc14;
+    font-weight: 700;
+    padding: 5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.mobile-menu__open{
+    opacity: 1;
+    left: 0;
+    right: 6rem;
+}
+
+.mobile-menu-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile-menu-links{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.mobile-menu-icon{
+    width: 2.5rem;
+}

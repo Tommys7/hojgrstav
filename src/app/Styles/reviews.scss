@@ -1,0 +1,14 @@
+.reviews-section{
+    padding-bottom: 5rem;
+}
+
+.reviews-text{
+    font-weight: normal;
+    padding-top: .5rem;
+}
+
+@media (max-width: 600px) {
+    .reviews-item{
+        text-align: center;
+    }
+}

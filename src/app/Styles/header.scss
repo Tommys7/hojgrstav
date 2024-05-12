@@ -1,0 +1,170 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 5rem;
+  z-index: 1000;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    padding: 0.5rem 2rem;
+  }
+}
+
+.header {
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(62, 62, 62, .97);
+    z-index: -1;
+  }
+}
+
+.header {
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    bottom: 0;
+    background-color: #f9cc14;
+    z-index: 1;
+  }
+}
+
+.header-links{
+  align-items: center;
+}
+
+.header-link {
+  position: relative;
+
+  &:after {
+    transition: .2s;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: 0;
+    height: 2px;
+    background-color: #f9cc14;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .header-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-link {
+    display: none;
+  }
+}
+
+.header-img {
+  width: 8rem;
+}
+
+
+@media (max-width: 1500px) {
+  .header-img {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-img {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-img__desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .header-img__mobile {
+    display: none;
+  }
+}
+
+
+
+.header-btn {
+  position: relative;
+  width: 2.5rem;
+  height: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+@media (min-width: 800px) {
+  .header-btn{
+    display: none;
+  }
+}
+
+.header-btn__line{
+  width: 100%;
+  height: .20rem;
+  background: #f9cc14;
+  border-radius: .25rem;
+  transition: .2s;
+}
+
+.header-btn__line-small{
+  border-radius: .25rem;
+  width: 70%;
+  height: .20rem;
+  background: #f9cc14;
+}
+
+.header-btn__rotate{
+  transform: rotate(45deg);
+  top: .75rem;
+  position: absolute;
+}
+
+.header-btn__rotate-opposite{
+  transform: rotate(135deg);
+  top: .75rem;
+  position: absolute;
+}
+
+.header-phone-img{
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 800px) {
+  .header-phone-img{
+    display: none;
+  }
+}
+
+.header-open-logo-img{
+  width: 6.5rem;
+  border-radius: .5rem;
+  margin-top: 1rem;
+}

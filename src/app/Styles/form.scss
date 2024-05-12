@@ -1,0 +1,36 @@
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.d-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.25rem;
+}
+
+@media (max-width: 600px) {
+    .d-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.25rem;
+    }
+}
+
+.form-label{
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.form-input{
+    border-radius: .5rem;
+    padding: .25rem;
+}
+
+.form-textarea{
+    margin-top: 1.25rem;
+}
+

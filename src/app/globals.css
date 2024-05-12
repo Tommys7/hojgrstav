@@ -2,32 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(236, 234, 234);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.container {
+  max-width: 1200px; /* Set your desired maximum width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+  padding-left: 20px; /* Add left padding */
+  padding-right: 20px; /* Add right padding */
+  padding-top: 2rem;
+}
+
+.realization-container {
+  max-width: 1200px; /* Set your desired maximum width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+  padding-left: 20px; /* Add left padding */
+  padding-right: 20px; /* Add right padding */
+  /* Add more styles as needed */
+}
+
+@media (max-width: 800px) {
+  .realization-container {
+    max-width: 1200px; /* Set your desired maximum width */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+    padding-left: 0px; /* Add left padding */
+    padding-right: 0px; /* Add right padding */
+    /* Add more styles as needed */
   }
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  text-decoration: underline;
+  text-decoration-color: #f9cc14;
+}
+
+@media (max-width: 800px) {
+  .section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.75rem;
+    text-decoration: underline;
+    text-decoration-color: #f9cc14;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.75rem;
+    text-decoration: underline;
+    text-decoration-color: #f9cc14;
+  }
+}
+
+/* FIX - tailwind not working shit */
+
+.overflow-hidden-custom {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.rounded-md-custom {
+  border-radius: 0.25rem;
+}
+
+.text-yellow-400-custom {
+  color: #f9cc14;
+}
+
+.font-bold-custom {
+  font-weight: bold;
+}
+
+.text-xl-custom {
+  font-size: 1.25rem;
+}
+
+.flex-custom {
+  display: flex;
+}
+
+.gap-4-custom {
+  gap: 0.75rem;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "none";
 }
