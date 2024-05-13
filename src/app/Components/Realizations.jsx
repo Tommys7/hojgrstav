@@ -16,6 +16,12 @@ import HybesovaImg4 from "../images/jobs/Hybesova/hybesova4.jpg";
 import HybesovaImg5 from "../images/jobs/Hybesova/hybesova5.jpg";
 
 
+import Kolsov1 from "../images/jobs/Kolsov/kolsov1.jpg";
+import Kolsov2 from "../images/jobs/Kolsov/kolsov2.jpg";
+import Kolsov3 from "../images/jobs/Kolsov/kolsov3.jpg";
+import Kolsov4 from "../images/jobs/Kolsov/kolsov4.jpg";
+
+
 
 
 // Import Swiper styles
@@ -64,11 +70,9 @@ const Realizations = () => {
                   <h3 className="swiper-slide-title">Zámková dlažba 30m2</h3>
                   <div className="swiper-slide-text">
                     <div>
-                      <img
-                        src={CalendarImg}
-                        alt=""
-                        className="swiper-slide-icon"
-                      />
+                 
+                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+
                     </div>
                     <div>
                       <span>Termín</span>
@@ -77,11 +81,7 @@ const Realizations = () => {
                   </div>
                   <div className="swiper-slide-text">
                     <div>
-                      <img
-                        src={ContractImg}
-                        alt=""
-                        className="swiper-slide-icon"
-                      />
+                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
                     </div>
                     <div>
                       <span>Popis</span>
@@ -99,7 +99,50 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              
+              <div className="swiper-slide-custom">
+                <div className="swiper-slide-imgs">
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={Kolsov1} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                  </div>
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={Kolsov2} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+
+                  </div>
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={Kolsov3} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+
+                  </div>
+                  <div className="swiper-slide-item">
+                    <Image src={Kolsov4} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+
+                  </div>
+                </div>
+                <div className="swiper-slide-content">
+                  <h3 className="swiper-slide-title">Zděný plot s hliníkovým polatím</h3>
+                  <div className="swiper-slide-text">
+                    <div>
+                 
+                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+
+                    </div>
+                    <div>
+                      <span>Termín</span>
+                      <p className="swiper-slide-date">15.8.2023 - 28.8.2023</p>
+                    </div>
+                  </div>
+                  <div className="swiper-slide-text">
+                    <div>
+                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+                    </div>
+                    <div>
+                      <span>Popis</span>
+                      <p className="swiper-slide-date">
+                        Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné horniny, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>
