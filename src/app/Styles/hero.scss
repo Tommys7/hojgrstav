@@ -18,14 +18,14 @@
 }
 
 .hero-bg {
-  height: 1000px;
+  height: 1000px !important;
   object-fit: cover;
   width: 100%;
 }
 
 @media (max-width: 1000px) {
   .hero-bg {
-    height: 700px;
+    height: 700px !important;
     object-fit: cover;
   }
 }

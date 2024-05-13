@@ -21,7 +21,7 @@ const Footer = () => {
               alt="Logo"
             />
           </a>
-          <div className="footer-info-wrap ml-auto">
+          <div className="footer-info-wrap">
             <div className="footer-info ">
               <a href="tel:+420773775247">+420 773 775 247</a>
               <a href="mailto:tomas.hojgr23@gmail.com">
