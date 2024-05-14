@@ -1,19 +1,23 @@
 import { useFormik } from "formik";
 
 const FormInput = function ({ formik, name, label }) {
-  return <div className="w-100">
-    <label className="w-100 form-label" htmlFor="name">
-      {label}
-    </label>
-    <input className="w-100 form-input" type="text"
-      name={name}
-      onChange={formik.handleChange}
-      value={formik.values[name]}
-      onBlur={formik.handleBlur}
-    />
-    {formatFormikError(formik, name)}
-  </div>
-}
+  return (
+    <div className="w-100">
+      <label className="w-100 form-label" htmlFor="name">
+        {label}
+      </label>
+      <input
+        className="w-100 form-input"
+        type="text"
+        name={name}
+        onChange={formik.handleChange}
+        value={formik.values[name]}
+        onBlur={formik.handleBlur}
+      />
+      {formatFormikError(formik, name)}
+    </div>
+  );
+};
 
 const formatFormikError = (formik, name) => {
   if (!formik.touched[name]) {
@@ -55,11 +59,11 @@ const Form = () => {
   const formik = useFormik({
     validate: validateContact,
     initialValues: {
-      firstname: '',
-      lastname: '',
-      phone: '',
-      email: '',
-      inq: '',
+      firstname: "",
+      lastname: "",
+      phone: "",
+      email: "",
+      inq: "",
     },
     onSubmit: async (values) => {
       const response = await fetch("/api/contact", {
@@ -82,38 +86,40 @@ const Form = () => {
       }
 
       const responseData = await response.json();
-    }
+    },
   });
   return (
     <div className="container">
-      <h2 className="section-title">Poptávka</h2>
-      <form noValidate onSubmit={formik.handleSubmit}>
-        <div className="d-grid">
-          <FormInput label="Křestní jméno" formik={formik} name="firstname" />
-          <FormInput label="Příjmení" formik={formik} name="lastname" />
-          <FormInput label="Telefonní číslo" formik={formik} name="phone" />
-          <FormInput label="E-mail" formik={formik} name="email" />
-        </div>
-        <div className="w-100 form-textarea">
-          <label className="w-100 form-label" htmlFor="name">
-            Poptávka
-          </label>
-          <textarea
-
-            onChange={formik.handleChange}
-            value={formik.values['inq']}
-            onBlur={formik.handleBlur}
-            name='inq'
-            rows={5}
-            className="w-100 form-input"
-            type="text" />
-        </div>
-        <div>
-          <button type="submit" className="hero-btn">
-            Odeslat
-          </button>
-        </div>
-      </form>
+      <div clas>
+        <h2 className="section-title">Poptávka</h2>
+        <form noValidate onSubmit={formik.handleSubmit}>
+          <div className="d-grid">
+            <FormInput label="Křestní jméno" formik={formik} name="firstname" />
+            <FormInput label="Příjmení" formik={formik} name="lastname" />
+            <FormInput label="Telefonní číslo" formik={formik} name="phone" />
+            <FormInput label="E-mail" formik={formik} name="email" />
+          </div>
+          <div className="w-100 form-textarea">
+            <label className="w-100 form-label" htmlFor="name">
+              Poptávka
+            </label>
+            <textarea
+              onChange={formik.handleChange}
+              value={formik.values["inq"]}
+              onBlur={formik.handleBlur}
+              name="inq"
+              rows={5}
+              className="w-100 form-input"
+              type="text"
+            />
+          </div>
+          <div>
+            <button type="submit" className="hero-btn">
+              Odeslat
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

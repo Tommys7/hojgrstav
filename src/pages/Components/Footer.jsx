@@ -18,6 +18,7 @@ const Footer = () => {
               src={Logo}
               width="129"
               height="60"
+
               alt="Logo"
             />
           </a>

@@ -41,28 +41,25 @@ const Realizations = () => {
           spaceBetween={0}
           slidesPerView={1}
           navigation
-          // pagination={{ clickable: true }}
 
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
             <div>
               <div className="swiper-slide-custom">
                 <div className="swiper-slide-imgs">
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={HybesovaImg} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={HybesovaImg} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
                   </div>
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={HybesovaImg2} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={HybesovaImg2} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={HybesovaImg3} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={HybesovaImg3} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                   <div className="swiper-slide-item">
-                    <Image src={HybesovaImg5} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={HybesovaImg5} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                 </div>
@@ -71,7 +68,7 @@ const Realizations = () => {
                   <div className="swiper-slide-text">
                     <div>
                  
-                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="Ikona"/>
 
                     </div>
                     <div>
@@ -81,7 +78,7 @@ const Realizations = () => {
                   </div>
                   <div className="swiper-slide-text">
                     <div>
-                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="Ikona"/>
                     </div>
                     <div>
                       <span>Popis</span>
@@ -102,18 +99,18 @@ const Realizations = () => {
               <div className="swiper-slide-custom">
                 <div className="swiper-slide-imgs">
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={Kolsov1} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={Kolsov1} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
                   </div>
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={Kolsov2} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={Kolsov2} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                   <div className="swiper-slide-item swiper-slide-item-mobile">
-                    <Image src={Kolsov3} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={Kolsov3} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                   <div className="swiper-slide-item">
-                    <Image src={Kolsov4} layout="fill" object-fit="cover" alt="Zakazka" className="!static"/>
+                    <Image src={Kolsov4} layout="fill" object-fit="cover" alt="Zakázka" className="!static"/>
 
                   </div>
                 </div>
@@ -122,7 +119,7 @@ const Realizations = () => {
                   <div className="swiper-slide-text">
                     <div>
                  
-                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+                      <Image src={CalendarImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="Ikona"/>
 
                     </div>
                     <div>
@@ -132,7 +129,7 @@ const Realizations = () => {
                   </div>
                   <div className="swiper-slide-text">
                     <div>
-                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="ikona"/>
+                     <Image src={ContractImg} layout="fill" object-fit="cover" className="swiper-slide-icon !static" alt="Ikona"/>
                     </div>
                     <div>
                       <span>Popis</span>

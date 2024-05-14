@@ -108,3 +108,13 @@ body {
 .swiper-rtl .swiper-button-prev:after {
   content: "none";
 }
+
+.work-list{
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .work-list{
+    width: 100%;
+  }
+}

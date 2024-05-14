@@ -1,10 +1,9 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import Logo from "../images/logo-header-desktop.png";
 import MobileLogo from "../images/logo-header-mobile.png";
 import PhoneImg from "../images/phone-call.png";
-import Image from 'next/image'
-
+import Image from "next/image";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,10 +23,22 @@ const Header = () => {
       <div className="header">
         <div className="header-img">
           <a className="header-img__desktop" href="/">
-            <Image className="rounded-md-custom" src={Logo} width="129" height="60" alt="Logo"/>
+            <Image
+              className="rounded-md-custom"
+              src={Logo}
+              width="129"
+              height="60"
+              alt="Logo"
+            />
           </a>
           <a className="header-img__mobile" href="/">
-            <Image className="rounded-md-custom" src={MobileLogo} width="129" height="60" alt="Logo"/>
+            <Image
+              className="rounded-md-custom"
+              src={MobileLogo}
+              width="129"
+              height="60"
+              alt="Logo"
+            />
           </a>
         </div>
         <div className="text-xl-custom flex-custom gap-4-custom font-bold-custom text-yellow-400-custom header-links">
@@ -44,7 +55,13 @@ const Header = () => {
             Poptávka
           </a>
           <a href="tel:+420773775247">
-            <Image className="header-phone-img" src={PhoneImg} width="30" height="30" alt="Logo"/>
+            <Image
+              className="header-phone-img"
+              src={PhoneImg}
+              width="30"
+              height="30"
+              alt="Logo"
+            />
           </a>
         </div>
         <button
@@ -73,7 +90,8 @@ const Header = () => {
       <div>
         <div
           className={
-            "mobile-menu mobile-menu-wrap" + (isMobileMenuOpen ? " mobile-menu__open" : "")
+            "mobile-menu mobile-menu-wrap" +
+            (isMobileMenuOpen ? " mobile-menu__open" : "")
           }
         >
           <div className="mobile-menu-links">
@@ -84,9 +102,9 @@ const Header = () => {
           </div>
           <div className="mobile-menu-socials">
             <a href="tel:+420773775247">
-              <img className="mobile-menu-icon"  src={PhoneImg} alt="" />
+              <Image className="mobile-menu-icon" src={PhoneImg} alt="Telefon" />
             </a>
-            <img className="header-open-logo-img" src={MobileLogo} alt="" />
+            <Image className="header-open-logo-img" src={MobileLogo} alt="Logo" />
           </div>
         </div>
       </div>
