@@ -6,9 +6,8 @@ import Form from "./Components/Form";
 import Footer from "./Components/Footer";
 import Work from "./Components/Work";
 
-export default function Home() {
-  return (
-    <div>
+const Index = () => {
+    return <div>
       <Header />
       <Hero />
       <Realizations />
@@ -17,5 +16,5 @@ export default function Home() {
       <Form />
       <Footer />
     </div>
-  );
-}
+};
+export default Index;
