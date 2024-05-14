@@ -8,12 +8,10 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-box">
             <h1>
-              Venkovní dlažby, zděné a pletivové ploty, ztracené bednění,
-              pergoly, zemní a výkopové práce, podlahy, terénní úpravy a další
-              na klíč!
+              Vaše vize, naše stavba, jedno úsměvem spojené!
             </h1>
             <a href="/">
-              <button className="hero-btn">Více info</button>
+              <button className="hero-btn">Čím se zabýváme?</button>
             </a>
           </div>
         </div>
