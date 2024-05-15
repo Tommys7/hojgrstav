@@ -15,7 +15,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="reviews-section">
+    <div id="Recenze" className="reviews-section pt-20">
       <div className="realization-container">
         <h2 className="section-title">Recenze</h2>
         <div className="reviews-grid">

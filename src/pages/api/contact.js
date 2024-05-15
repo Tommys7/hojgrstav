@@ -1,7 +1,7 @@
 import { MailerSend, EmailParams, Sender, Recipient } from "mailersend";
 
 const mailerSend = new MailerSend({
-  apiKey: "API KEY",
+  apiKey: "mlsn.140edfc67dab113d0d291f82fe21f6654e0c5401cb00215d756b56a293bc17bf",
 });
 
 export default async function handler(
@@ -16,7 +16,7 @@ export default async function handler(
     const phone = data.phone;
     const inq = data.inq;
 
-    const sentFrom = new Sender("tomas.hojgr23@gmail.com", "Tomas Hojgr");
+    const sentFrom = new Sender("info@hojgrstav.cz", "Tomas Hojgr");
 
     const recipients = [
         new Recipient("tomas.hojgr23@gmail.com ", "Tomas Hojgr")

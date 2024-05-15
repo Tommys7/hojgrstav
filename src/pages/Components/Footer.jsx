@@ -4,15 +4,15 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div>
-      <div className="footer">
+      <div id="Kontakt" className="footer">
         <div className="footer-wrap container">
           <div className="footer-links">
-            <a href="/">Realizace</a>
-            <a href="/">Recenze</a>
-            <a href="/">Kontakt</a>
-            <a href="/">Poptávka</a>
+            <a href="#Realizace">Realizace</a>
+            <a href="#Recenze">Recenze</a>
+            <a href="#Kontakt">Kontakt</a>
+            <a href="#Poptavka">Poptávka</a>
           </div>
-          <a className="mx-auto" href="/">
+          <a className="mx-auto" href="#Uvod">
             <Image
               className="footer-logo-img"
               src={Logo}

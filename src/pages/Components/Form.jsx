@@ -89,8 +89,8 @@ const Form = () => {
     },
   });
   return (
-    <div className="container">
-      <div clas>
+    <div id="Poptavka" className="container">
+      <div>
         <h2 className="section-title">Poptávka</h2>
         <form noValidate onSubmit={formik.handleSubmit}>
           <div className="d-grid">

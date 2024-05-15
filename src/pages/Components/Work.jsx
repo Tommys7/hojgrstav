@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-    <div className=" bg-white pb-20 work-section">
+    <div id="Seznam-praci" className=" bg-white pt-20 work-section">
       <div className="container">
         <h2 className="section-title">Čím se zabýváme?</h2>
         <div className="flex flex-wrap">
