@@ -4,6 +4,8 @@ import Logo from "../images/logo-header-desktop.png";
 import MobileLogo from "../images/logo-header-mobile.png";
 import PhoneImg from "../images/phone-call.png";
 import Image from "next/image";
+import Link from "next/link"
+
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,7 +26,7 @@ const Header = () => {
     <>
       <div className="header">
         <div className="header-img">
-          <a className="header-img__desktop" href="#Uvod">
+          <Link className="header-img__desktop" href="#Uvod">
             <Image
               className="rounded-md-custom"
               src={Logo}
@@ -32,8 +34,8 @@ const Header = () => {
               height="60"
               alt="Logo"
             />
-          </a>
-          <a className="header-img__mobile" href="#Uvod">
+          </Link>
+          <Link className="header-img__mobile" href="#Uvod">
             <Image
               className="rounded-md-custom"
               src={MobileLogo}
@@ -41,22 +43,22 @@ const Header = () => {
               height="60"
               alt="Logo"
             />
-          </a>
+          </Link>
         </div>
         <div className="text-xl-custom flex-custom gap-4-custom font-bold-custom text-yellow-400-custom header-links">
-          <a className="header-link" href="#Realizace">
+          <Link className="header-link" href="#Realizace">
             Realizace
-          </a>
-          <a className="header-link" href="#Recenze">
+          </Link>
+          <Link className="header-link" href="#Recenze">
             Recenze
-          </a>
-          <a className="header-link" href="#Kontakt">
+          </Link>
+          <Link className="header-link" href="#Kontakt">
             Kontakt
-          </a>
-          <a className="header-link" href="#Poptavka">
+          </Link>
+          <Link className="header-link" href="#Poptavka">
             Poptávka
-          </a>
-          <a href="tel:+420773775247">
+          </Link>
+          <Link href="tel:+420773775247">
             <Image
               className="header-phone-img"
               src={PhoneImg}
@@ -64,7 +66,7 @@ const Header = () => {
               height="30"
               alt="Logo"
             />
-          </a>
+          </Link>
         </div>
         <button
           onClick={() => setIsMobileMenuOpen((prevState) => !prevState)}
@@ -97,35 +99,35 @@ const Header = () => {
           }
         >
           <div className="mobile-menu-links">
-            <a onClick={closeMobileMenu} href="#Realizace">
+            <Link onClick={closeMobileMenu} href="#Realizace">
               Realizace
-            </a>
-            <a onClick={closeMobileMenu} href="#Recenze">
+            </Link>
+            <Link onClick={closeMobileMenu} href="#Recenze">
               Recenze
-            </a>
-            <a onClick={closeMobileMenu} href="#Kontakt">
+            </Link>
+            <Link onClick={closeMobileMenu} href="#Kontakt">
               Kontakt
-            </a>
-            <a onClick={closeMobileMenu} href="#Poptavka">
+            </Link>
+            <Link onClick={closeMobileMenu} href="#Poptavka">
               Poptávka
-            </a>
+            </Link>
           </div>
           <div className="mobile-menu-socials">
-            <a onClick={closeMobileMenu} href="tel:+420773775247">
+            <Link onClick={closeMobileMenu} href="tel:+420773775247">
               <Image
                 className="mobile-menu-icon"
                 src={PhoneImg}
                 alt="Telefon"
               />
-            </a>
-            <a href="#Uvod">
+            </Link>
+            <Link href="#Uvod">
               <Image
                 onClick={closeMobileMenu}
                 className="header-open-logo-img"
                 src={MobileLogo}
                 alt="Logo"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

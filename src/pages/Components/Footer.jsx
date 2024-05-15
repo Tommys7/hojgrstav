@@ -1,5 +1,6 @@
 import Logo from "../images/logo-header-desktop.png";
 import Image from "next/image";
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -7,12 +8,12 @@ const Footer = () => {
       <div id="Kontakt" className="footer">
         <div className="footer-wrap container">
           <div className="footer-links">
-            <a href="#Realizace">Realizace</a>
-            <a href="#Recenze">Recenze</a>
-            <a href="#Kontakt">Kontakt</a>
-            <a href="#Poptavka">Poptávka</a>
+            <Link href="#Realizace">Realizace</Link>
+            <Link href="#Recenze">Recenze</Link>
+            <Link href="#Kontakt">Kontakt</Link>
+            <Link href="#Poptavka">Poptávka</Link>
           </div>
-          <a className="mx-auto" href="#Uvod">
+          <Link className="mx-auto" href="#Uvod">
             <Image
               className="footer-logo-img"
               src={Logo}
@@ -21,13 +22,13 @@ const Footer = () => {
 
               alt="Logo"
             />
-          </a>
+          </Link>
           <div className="footer-info-wrap">
             <div className="footer-info ">
-              <a href="tel:+420773775247">+420 773 775 247</a>
-              <a href="mailto:tomas.hojgr23@gmail.com">
+              <Link href="tel:+420773775247">+420 773 775 247</Link>
+              <Link href="mailto:tomas.hojgr23@gmail.com">
                 tomas.hojgr23@gmail.com
-              </a>
+              </Link>
             </div>
           </div>
         </div>

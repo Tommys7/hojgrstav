@@ -1,5 +1,7 @@
 import Background from "../images/excav-22.jpg";
 import Image from "next/image";
+import Link from "next/link"
+
 
 const Hero = () => {
   return (
@@ -10,9 +12,9 @@ const Hero = () => {
             <h1>
               Vaše vize, naše stavba, jedno úsměvem spojené!
             </h1>
-            <a href="#Seznam-praci">
+            <Link href="#Seznam-praci">
               <button className="hero-btn">Čím se zabýváme?</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
