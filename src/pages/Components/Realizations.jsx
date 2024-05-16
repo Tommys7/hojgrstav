@@ -32,7 +32,7 @@ import "swiper/css/scrollbar";
 
 const Realizations = () => {
   return (
-    <div id="Realizace" className="realization-section pt-20">
+    <div id="Realizace" className="realization-section pt-20 pb-8">
       <div className="realization-container">
         <h2 className="section-title">Realizace</h2>
         <Swiper

@@ -11,6 +11,7 @@ import "./Styles/hero.scss"
 import "./Styles/mobile-menu.scss"
 import "./Styles/realization.scss"
 import "./Styles/reviews.scss"
+import "./Styles/work.scss"
 
 const inter = Inter({ subsets: ["latin"] });
 

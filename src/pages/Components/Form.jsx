@@ -126,7 +126,7 @@ const Form = () => {
         ""
       )}
       <div className="form-container">
-        <h2 className="section-title">Poptávka</h2>
+        <h2 className="section-title !mb-10">Poptávka</h2>
         <form noValidate onSubmit={formik.handleSubmit}>
           <div className="d-grid">
             <FormInput

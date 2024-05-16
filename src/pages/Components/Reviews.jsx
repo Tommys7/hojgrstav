@@ -15,9 +15,9 @@ const Reviews = () => {
   };
 
   return (
-    <div id="Recenze" className="reviews-section pt-20">
+    <div id="Recenze" className="reviews-section pt-16">
       <div className="realization-container">
-        <h2 className="section-title">Recenze</h2>
+        <h2 className="section-title !mb-8">Recenze</h2>
         <div className="reviews-grid">
           <Swiper
             // install Swiper modules

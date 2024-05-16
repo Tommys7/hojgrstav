@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-    <div id="Seznam-praci" className=" bg-white pt-20 work-section">
-      <div className="container">
-        <h2 className="section-title">Čím se zabýváme?</h2>
+    <div id="Seznam-praci" className="pt-20">
+      <div className="container work-section">
+        <h2 className="section-title !mb-8">Čím se zabýváme?</h2>
         <div className="flex flex-wrap">
           <div className="work-list text-center">
             <ul className="">
               <li>Venkovní dlažby</li>
-              <li>Zděné, Betonové a pletivové ploty</li>
+              <li>Zděné, betonové a pletivové ploty</li>
               <li>Ztracené bednění</li>
               <li>Pergoly</li>
               <li>Zemní a výkopové práce</li>
