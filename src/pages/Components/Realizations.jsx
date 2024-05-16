@@ -34,7 +34,7 @@ const Realizations = () => {
   return (
     <div id="Realizace" className="realization-section pt-20 pb-8">
       <div className="realization-container">
-        <h2 className="section-title">Realizace</h2>
+        <h2 className="section-title !mb-4">Realizace</h2>
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
