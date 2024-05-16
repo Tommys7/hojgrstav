@@ -1,4 +1,5 @@
 import { useFormik } from "formik";
+import { useState } from "react";
 
 const FormInput = function ({ formik, name, label }) {
   return (
@@ -56,6 +57,9 @@ const validateContact = (values) => {
 };
 
 const Form = () => {
+  const [isSent, setIsSent] = useState();
+  const [isError, setIsError] = useState();
+
   const formik = useFormik({
     validate: validateContact,
     initialValues: {
@@ -82,6 +86,13 @@ const Form = () => {
 
       if (!response.ok) {
         setIsError(true);
+        setIsSent(false);
+        return;
+      }
+
+      if (response.ok) {
+        setIsSent(true);
+        setIsError(false);
         return;
       }
 
@@ -89,15 +100,43 @@ const Form = () => {
     },
   });
   return (
-    <div id="Poptavka" className="container">
-      <div>
+    <div id="Poptavka" className="container pb-10 form-overlay-point">
+      {isSent ? (
+        <div className="form-overlay">
+          <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl succes-msg text-center p-10 flex-col">
+            Děkuji za odeslání poptávky!
+            <p className="text-black text-sm mt-4">
+              &nbsp;Co nejdříve Vás budu kontaktovat.
+            </p>
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      {isError ? (
+        <div className="form-overlay">
+          <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl error-msg text-center p-10 flex-col">
+            Odeslání formuláře se nezdařilo.
+            <p className="text-black text-sm mt-4">
+              &nbsp;Kontaktujte mě prosím telefonicky.
+            </p>
+          </p>
+        </div>
+      ) : (
+        ""
+      )}
+      <div className="form-container">
         <h2 className="section-title">Poptávka</h2>
         <form noValidate onSubmit={formik.handleSubmit}>
           <div className="d-grid">
-            <FormInput label="Křestní jméno" formik={formik} name="firstname" />
-            <FormInput label="Příjmení" formik={formik} name="lastname" />
+            <FormInput
+              label="Křestní jméno*"
+              formik={formik}
+              name="firstname"
+            />
+            <FormInput label="Příjmení*" formik={formik} name="lastname" />
             <FormInput label="Telefonní číslo" formik={formik} name="phone" />
-            <FormInput label="E-mail" formik={formik} name="email" />
+            <FormInput label="E-mail*" formik={formik} name="email" />
           </div>
           <div className="w-100 form-textarea">
             <label className="w-100 form-label" htmlFor="name">
@@ -112,6 +151,11 @@ const Form = () => {
               className="w-100 form-input"
               type="text"
             />
+            {isError ? (
+              <p className="text-red-500">Odeslání formuláře se nezdařilo.</p>
+            ) : (
+              ""
+            )}
           </div>
           <div>
             <button type="submit" className="hero-btn">

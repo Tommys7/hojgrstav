@@ -31,13 +31,13 @@ export default async function handler(
 
     await mailerSend.email.send(emailParams);
 
-    console.log(
-        firstName,
-        lastName,
-        email,
-        phone,
-        inq
-    )
+    // console.log(
+    //     firstName,
+    //     lastName,
+    //     email,
+    //     phone,
+    //     inq
+    // )
 
     res.status(200).json({
         success: true,

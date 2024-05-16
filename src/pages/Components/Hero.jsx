@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Image src={Background} layout="fill" alt="Bagr" className="hero-bg" />
+      <Image src={Background} fill={true} alt="Bagr" className="hero-bg" />
     </div>
   );
 };
