@@ -100,7 +100,7 @@ const Form = () => {
     },
   });
   return (
-    <div id="Poptavka" className="container pb-10 form-overlay-point">
+    <div id="Poptavka" className="container pb-10 mt-6 form-overlay-point">
       {isSent ? (
         <div className="form-overlay">
           <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl succes-msg text-center p-10 flex-col">
