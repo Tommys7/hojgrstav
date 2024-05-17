@@ -16,17 +16,17 @@ export default async function handler(
     const phone = data.phone;
     const inq = data.inq;
 
-    const sentFrom = new Sender("info@hojgrstav.cz", "Tomas Hojgr");
+    const sentFrom = new Sender("info@hojgrstav.cz", "Hojgrstav");
 
     const recipients = [
-        new Recipient("tomas.hojgr23@gmail.com ", "Tomas Hojgr")
+        new Recipient("hojgrstav@gmail.com", "Hojgrstav")
     ];
 
     const emailParams = new EmailParams()
     .setFrom(sentFrom)
     .setTo(recipients)
     .setReplyTo(sentFrom)
-    .setSubject("Nova poptavka")
+    .setSubject("Nová poptávka - Hojgrstav")
     .setText(`Jmeno: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\n\n${inq}`);
 
     await mailerSend.email.send(emailParams);
