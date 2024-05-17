@@ -5,9 +5,11 @@ import Reviews from "./Components/Reviews";
 import Form from "./Components/Form";
 import Footer from "./Components/Footer";
 import Work from "./Components/Work";
+import Announcement from "./Components/Announcement";
 
 const Index = () => {
     return <div>
+      <Announcement/>
       <Header />
       <Hero />
       <Realizations />

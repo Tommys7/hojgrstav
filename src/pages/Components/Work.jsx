@@ -25,6 +25,7 @@ const Work = () => {
               <li>Odvoz zeminy</li>
               <li>Kanalizace, vodovody</li>
               <li>Rybníčky a vodní plochy</li>
+              <li>A další!</li>
             </ul>
           </div>
         </div>

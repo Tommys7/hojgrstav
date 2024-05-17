@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   background: rgb(236, 234, 234);
   font-family: "Roboto", sans-serif;
@@ -107,4 +105,38 @@ body {
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
   content: "none";
+}
+
+.announcement-wrap {
+  background: rgba(42, 42, 42, 0.9);
+}
+
+.announcement-text {
+  width: 50%;
+  min-height: 15%;
+  padding: 1.5rem 1rem;
+  border: 2px solid #f9cc14;
+  border-radius: 1rem;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width : 767px){
+  .announcement-text {
+    width: 80%;
+    min-height: 15%;
+
+  }
+  
+}
+
+.announcement-close {
+  position: absolute;
+  right: -.5rem;
+  top: -.5rem;
+  background-color: #f9cc14;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10rem;
+
 }
