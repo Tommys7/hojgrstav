@@ -83,7 +83,7 @@
 @media (max-width: 800px) {
     .swiper-slide-item {
         margin: auto;
-        width: 75%
+        width: 90%
     }
 }
 
@@ -136,3 +136,29 @@
       }
     
 }
+
+.yarl__thumbnails_container {
+    background: rgba(0, 0, 0, .6) !important;
+}
+
+
+.yarl__thumbnails_bottom .yarl__thumbnails_vignette, .yarl__thumbnails_top .yarl__thumbnails_vignette {
+    background: unset !important;
+}
+
+@media (min-width: 801px){
+    .swiper-slide-btn{
+        display: none;
+    }
+}
+
+.swiper-slide-btn{
+    background: #ffcc00;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 50%;
+    margin: auto;
+    max-width: 310px;
+    width: 100%;
+}
+

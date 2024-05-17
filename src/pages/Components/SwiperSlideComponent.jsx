@@ -35,6 +35,7 @@ function SwiperSlideComponent({ images = [], title, date, description, client })
 
       />
       <div className="swiper-slide-custom">
+        <button onClick={() => setOpen(true)} className="swiper-slide-btn">Otevřít galerii projektu</button>
         <div className="swiper-slide-imgs">
           {images.map((src, index) => (
             <div key={index} className="swiper-slide-item">
