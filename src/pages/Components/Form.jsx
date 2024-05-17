@@ -59,6 +59,7 @@ const validateContact = (values) => {
 const Form = () => {
   const [isSent, setIsSent] = useState();
   const [isError, setIsError] = useState();
+  const [isBeingSent, setIsBeingSent] = useState()
 
   const formik = useFormik({
     validate: validateContact,
@@ -70,6 +71,7 @@ const Form = () => {
       inq: "",
     },
     onSubmit: async (values) => {
+      setIsBeingSent(true)
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
@@ -85,12 +87,14 @@ const Form = () => {
       });
 
       if (!response.ok) {
+        setIsBeingSent(false)
         setIsError(true);
         setIsSent(false);
         return;
       }
 
       if (response.ok) {
+        setIsBeingSent(false)
         setIsSent(true);
         setIsError(false);
         return;
@@ -101,12 +105,19 @@ const Form = () => {
   });
   return (
     <div id="Poptavka" className="container pb-10 mt-8 form-overlay-point">
+      {isBeingSent ? (
+        <div className="form-overlay-spinner">
+          <div className="loader"></div>
+        </div>
+      ) : (
+        ""
+      )}
       {isSent ? (
         <div className="form-overlay">
           <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl succes-msg text-center p-10 flex-col">
-            Děkuji za odeslání poptávky!
+            Děkujeme za odeslání poptávky!
             <p className="text-black text-sm mt-4">
-              &nbsp;Co nejdříve Vás budu kontaktovat.
+              &nbsp;Co nejdříve Vás budeme kontaktovat.
             </p>
           </p>
         </div>
@@ -116,9 +127,9 @@ const Form = () => {
       {isError ? (
         <div className="form-overlay">
           <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl error-msg text-center p-10 flex-col">
-            Odeslání formuláře se nezdařilo.
+            Odeslání formuláře se nezdařilo.''
             <p className="text-black text-sm mt-4">
-              &nbsp;Kontaktujte mě prosím telefonicky.
+              &nbsp;Kontaktujte nás prosím telefonicky.
             </p>
           </p>
         </div>

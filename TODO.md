@@ -15,6 +15,7 @@
 - refactor footer DONE
 - add background for work section, simillar to one used at form DONE
 - add tel. cislo povinne
+- prace add podlaha flok, bazen babicka, zakladova deska DM,
 
 <<<<<TODO>>>>>
 <<<<<TODO>>>>>

@@ -72,3 +72,33 @@ input:-webkit-autofill:active {
     background: white;
     border-radius: 1rem;
 }
+
+.loader {
+    border: .5rem solid #f3f3f3; /* Light grey */
+    border-top: .5rem solid #f9cc14; /* Blue */
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.form-overlay-spinner {
+    position: absolute;
+    top: 2rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: 2.5rem;
+    // background: rgb(0, 201, 0, .5);
+    background: rgba(255, 255, 255, 0.95);
+    border-radius:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
