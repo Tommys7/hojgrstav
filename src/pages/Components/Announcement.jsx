@@ -21,8 +21,7 @@ const Announcement = () => {
     <div className={`fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center announcement-wrap ${isAnnouncementOpen ? '' : 'hidden'}`}>
       <div className="bg-gray-200 announcement-text flex items-center justify-center relative">
         <h2 className="md:text-2xl">
-          Web je momentálně v určité části vývoje, časem se zde objeví více
-          projektů. Děkujeme za pochopení.
+          Web je plně funkční, projekty budou doplněny časem. Děkujeme za pochopení.
         </h2>
         <button onClick={closeAnnouncement} className="announcement-close">
           <Image

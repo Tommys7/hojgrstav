@@ -9,7 +9,7 @@ import Announcement from "./Components/Announcement";
 
 const Index = () => {
     return <div>
-      <Announcement/>
+      {/* <Announcement/> */}
       <Header />
       <Hero />
       <Realizations />
