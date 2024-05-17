@@ -7,6 +7,9 @@ import UserImg from "../images/user.png";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 function SwiperSlideComponent({ images = [], title, date, description, client }) {
   const [open, setOpen] = React.useState(false);
@@ -23,7 +26,10 @@ function SwiperSlideComponent({ images = [], title, date, description, client })
   return (
     <div>
       <Lightbox
+        styles={{ container: { backgroundColor: "rgba(0, 0, 0, .6)" } }}
+
         open={open}
+        plugins={[Thumbnails, Zoom]}
         close={() => setOpen(false)}
         slides={lightboxSlides}
 
