@@ -12,7 +12,6 @@ import ContractImg from "../images/contract.png";
 import HybesovaImg from "../images/jobs/Hybesova/hybesova1.jpg";
 import HybesovaImg2 from "../images/jobs/Hybesova/hybesova2.jpg";
 import HybesovaImg3 from "../images/jobs/Hybesova/hybesova3.jpg";
-import HybesovaImg4 from "../images/jobs/Hybesova/hybesova4.jpg";
 import HybesovaImg5 from "../images/jobs/Hybesova/hybesova5.jpg";
 
 
@@ -20,6 +19,12 @@ import Kolsov1 from "../images/jobs/Kolsov/kolsov1.jpg";
 import Kolsov2 from "../images/jobs/Kolsov/kolsov2.jpg";
 import Kolsov3 from "../images/jobs/Kolsov/kolsov3.jpg";
 import Kolsov4 from "../images/jobs/Kolsov/kolsov4.jpg";
+
+import SudkovByt1 from "../images/jobs/Sudkov-byt/Sudkov-Byt-1.jpg"
+import SudkovByt2 from "../images/jobs/Sudkov-byt/Sudkov-Byt-2.jpg"
+import SudkovByt3 from "../images/jobs/Sudkov-byt/Sudkov-Byt-3.jpg"
+import SudkovByt4 from "../images/jobs/Sudkov-byt/Sudkov-Byt-4.jpg"
+
 
 
 
@@ -85,7 +90,7 @@ const Realizations = () => {
                       <p className="swiper-slide-date">
                         Kompletní vymyšlení řešení s ohledem na přistavění pergoly včetně zaměření. Podloží pod
                         pochozí dlažbou zvoleno 300mm štěrk 16-32, 50mm štěrk
-                        4-8. Zvolena přírodní zámková dlažba a zahradní
+                        4-8. Klient si vybral přírodní zámkovou dlažbu a zahradní
                         obrubníky.
                       </p>
                     </div>
@@ -135,6 +140,54 @@ const Realizations = () => {
                       <span>Popis</span>
                       <p className="swiper-slide-date">
                         Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné horniny, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <div className="swiper-slide-custom">
+                <div className="swiper-slide-imgs">
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={SudkovByt1} fill={true} placeholder="blur" alt="Zakázka" className="!static"/>
+                  </div>
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={SudkovByt2} fill={true} placeholder="blur" alt="Zakázka" className="!static"/>
+
+                  </div>
+                  <div className="swiper-slide-item swiper-slide-item-mobile">
+                    <Image src={SudkovByt3} fill={true} placeholder="blur" alt="Zakázka" className="!static"/>
+
+                  </div>
+                  <div className="swiper-slide-item">
+                    <Image src={SudkovByt4} fill={true} placeholder="blur" alt="Zakázka" className="!static"/>
+
+                  </div>
+                </div>
+                <div className="swiper-slide-content">
+                  <h3 className="swiper-slide-title">Finální práce na bytu</h3>
+                  <div className="swiper-slide-text">
+                    <div>
+                 
+                      <Image src={CalendarImg} fill={true} placeholder="blur" className="swiper-slide-icon !static" alt="Ikona"/>
+
+                    </div>
+                    <div>
+                      <span>Termín</span>
+                      <p className="swiper-slide-date">5.2.2024 - 9.2.2024</p>
+                    </div>
+                  </div>
+                  <div className="swiper-slide-text">
+                    <div>
+                     <Image src={ContractImg} fill={true} placeholder="blur" className="swiper-slide-icon !static" alt="Ikona"/>
+                    </div>
+                    <div>
+                      <span>Popis</span>
+                      <p className="swiper-slide-date">
+                        Finální práce na rekonstruovaném bytě v Sudkově. Kompletní pokládka podlah, montáž nábytku, montáž umyvadla do obkladu včetne napojení odpadu.
                       </p>
                     </div>
                   </div>

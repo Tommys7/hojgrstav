@@ -29,10 +29,17 @@ const Reviews = () => {
           >
             <SwiperSlide>
               <div className="reviews-item">
-                <span className="reviews-user"> E. Hovadová</span>
+                <span className="reviews-user"> M. Krobotová</span>
                 <p className="reviews-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Mollitia, tempore?
+                Stavba plotu proběhla rychle a efektivně. Vše bylo skvěle vysvětleno, p. Hojgr byl velmi profesionální. Po dokončení práce proběhla závěrečná úprava zahrady a srovnání terénu do původního stavu. Výsledek předčil naše očekávání, plot vypadá fantasticky. Určitě doporučuji jeho služby každému!
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="reviews-item">
+                <span className="reviews-user"> S. Hájková</span>
+                <p className="reviews-text">
+                Pokládka podlahy s lištami byla provedena rychle a kvalitně. Montáž nábytku a instalace umyvadla na zeď včetně připojení odpadu proběhla bezchybně. Jsme nadmíru spokojeni s výsledkem a rádi doporučíme dál!
                 </p>
               </div>
             </SwiperSlide>
@@ -40,17 +47,7 @@ const Reviews = () => {
               <div className="reviews-item">
                 <span className="reviews-user"> E. Hovadová</span>
                 <p className="reviews-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Mollitia, tempore?
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="reviews-item">
-                <span className="reviews-user"> E. Hovadová</span>
-                <p className="reviews-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Mollitia, tempore?
+                Bude doplňeno.
                 </p>
               </div>
             </SwiperSlide>
