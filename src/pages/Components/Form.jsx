@@ -127,7 +127,7 @@ const Form = () => {
       {isError ? (
         <div className="form-overlay">
           <p className="z-10 !color-black relative flex w-100 h-full justify-center items-center text-2xl md:text-3xl error-msg text-center p-10 flex-col">
-            Odeslání formuláře se nezdařilo.''
+            Odeslání formuláře se nezdařilo.
             <p className="text-black text-sm mt-4">
               &nbsp;Kontaktujte nás prosím telefonicky.
             </p>
