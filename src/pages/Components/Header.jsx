@@ -52,11 +52,11 @@ const Header = () => {
           <Link className="header-link" href="#Recenze">
             Recenze
           </Link>
-          <Link className="header-link" href="#Kontakt">
-            Kontakt
-          </Link>
           <Link className="header-link" href="#Poptavka">
             Poptávka
+          </Link>
+          <Link className="header-link" href="#Kontakt">
+            Kontakt
           </Link>
           <Link href="tel:+420773775247">
             <Image

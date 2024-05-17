@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="footer-links">
               <Link href="#Realizace">Realizace</Link>
               <Link href="#Recenze">Recenze</Link>
-              <Link href="#Kontakt">Kontakt</Link>
               <Link href="#Poptavka">Poptávka</Link>
+              <Link href="#Kontakt">Kontakt</Link>
             </div>
             <Link className="mx-auto" href="#Uvod">
               <Image
@@ -29,7 +29,7 @@ const Footer = () => {
                 <span>Tomáš Hojgr</span>
                 <Link href="tel:+420773775247">+420 773 775 247</Link>
                 <Link href="mailto:tomas.hojgr23@gmail.com">
-                  tomas.hojgr23@gmail.com
+                  hojgrstav@gmail.com
                 </Link>
               </div>
             </div>
