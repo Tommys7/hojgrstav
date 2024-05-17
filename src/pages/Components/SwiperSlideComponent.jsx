@@ -8,11 +8,18 @@ import UserImg from "../images/user.png";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-function SwiperSlideComponent({ images, title, date, description, client }) {
+function SwiperSlideComponent({ images = [], title, date, description, client }) {
   const [open, setOpen] = React.useState(false);
-  const lightboxSlides = images.map(image => ({ src: image.src }));
-  console.log("lightboxSlides:", lightboxSlides);
-
+  const lightboxSlides = images.map(image => {
+    if (typeof image === 'string') {
+      return { src: image };
+    } else if (image && image.src) {
+      return { src: image.src };
+    } else {
+      console.error('Invalid image format:', image);
+      return { src: '' };
+    }
+  });
   return (
     <div>
       <Lightbox
