@@ -9,10 +9,26 @@ const Footer = () => {
         <div className="footer-wrap container">
           <div className="footer-box">
             <div className="footer-links">
-              <Link href="#Realizace">Realizace</Link>
-              <Link href="#Recenze">Recenze</Link>
-              <Link href="#Poptavka">Poptávka</Link>
-              <Link href="#Kontakt">Kontakt</Link>
+              <div>
+                <Link className="footer-link" href="#Realizace">
+                  Realizace
+                </Link>
+              </div>
+              <div>
+                <Link className="footer-link" href="#Recenze">
+                  Recenze
+                </Link>
+              </div>
+              <div>
+                <Link className="footer-link" href="#Poptavka">
+                  Poptávka
+                </Link>
+              </div>
+              <div>
+                <Link className="footer-link" href="#Kontakt">
+                  Kontakt
+                </Link>
+              </div>
             </div>
             <Link className="mx-auto" href="#Uvod">
               <Image
@@ -25,12 +41,18 @@ const Footer = () => {
             </Link>
             <div className="footer-info-wrap">
               <div className="footer-info ">
-                <span className="text-xl footer-special-text">Kontaktní osoba</span>
+                <span className="text-xl footer-special-text">
+                  Kontaktní osoba
+                </span>
                 <span>Tomáš Hojgr</span>
-                <Link href="tel:+420773775247">+420 773 775 247</Link>
-                <Link href="mailto:tomas.hojgr23@gmail.com">
-                  hojgrstav@gmail.com
-                </Link>
+                <div>
+                  <Link className="footer-link" href="tel:+420773775247">+420 773 775 247</Link>
+                </div>
+                <div>
+                  <Link className="footer-link" href="mailto:tomas.hojgr23@gmail.com">
+                    hojgrstav@gmail.com
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

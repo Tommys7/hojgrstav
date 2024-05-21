@@ -43,7 +43,7 @@ const Realizations = () => {
               images={[HybesovaImg, HybesovaImg2, HybesovaImg3, HybesovaImg5]}
               title="Zámková dlažba 30m2"
               date="29.4.2024 - 3.5.2024"
-              description="Kompletní vymyšlení řešení s ohledem na přistavění pergoly včetně zaměření. Podloží pod pochozí dlažbou zvoleno 300mm štěrk 16-32, 50mm štěrk 4-8. Klient si vybral přírodní zámkovou dlažbu a zahradní obrubníky."
+              description="Kompletní návrh řešení s ohledem na přistavění pergoly včetně zaměření. Klient si vybral přírodní zámkovou dlažbu a zahradní obrubníky."
               client="E. Hovadová"
             />
           </SwiperSlide>

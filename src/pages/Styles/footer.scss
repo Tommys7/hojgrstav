@@ -97,3 +97,26 @@
     text-decoration: underline;
     text-decoration-color: #f9cc14;
 }
+
+
+
+.footer-link {
+    position: relative;
+  
+    &:after {
+      transition: .2s;
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 0%;
+      bottom: 0;
+      height: 2px;
+      background-color: #f9cc14;
+    }
+  
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
