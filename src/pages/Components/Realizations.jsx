@@ -52,16 +52,16 @@ const Realizations = () => {
               images={[Kolsov1, Kolsov2, Kolsov3, Kolsov4]}
               title="Zděný plot s hliníkovým polatím"
               date="15.8.2023 - 28.8.2023"
-              description="Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné horniny, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí."
+              description="Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné zeminy, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí."
               client="M. Krobotová"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
               images={[SudkovByt4, SudkovByt2, SudkovByt3, SudkovByt1]}
-              title="Finální práce na bytu"
+              title="Finální práce byt Sudkov"
               date="5.2.2024 - 9.2.2024"
-              description="Finální práce na rekonstruovaném bytě v Sudkově. Kompletní pokládka podlah, montáž nábytku, montáž umyvadla do obkladu včetne napojení odpadu."
+              description="Finální práce na rekonstruovaném bytě v Sudkově. Kompletní pokládka podlah, montáž nábytku, montáž umyvadla do obkladu včetně napojení odpadu."
               client="S. Hájková"
             />
           </SwiperSlide>
