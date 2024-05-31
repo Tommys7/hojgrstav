@@ -31,7 +31,7 @@ const Reviews = () => {
               <div className="reviews-item">
                 <span className="reviews-user"> M. Krobotová</span>
                 <p className="reviews-text">
-                Stavba plotu proběhla rychle a efektivně. Vše bylo skvěle vysvětleno, p. Hojgr byl velmi profesionální. Po dokončení práce proběhla závěrečná úprava zahrady a srovnání terénu do původního stavu. Výsledek předčil naše očekávání, plot vypadá fantasticky. Určitě doporučuji jeho služby každému!
+                Stavba plotu proběhla rychle a efektivně. Vše bylo skvěle vysvětleno, přístup byl velmi profesionální. Po dokončení práce proběhla závěrečná úprava zahrady a srovnání terénu do původního stavu. Výsledek předčil naše očekávání, plot vypadá fantasticky. Určitě doporučuji každému!
                 </p>
               </div>
             </SwiperSlide>
