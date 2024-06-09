@@ -129,11 +129,11 @@ const Header = () => {
                 alt="Telefon"
               />
             </Link>
-            <Link onClick={closeMobileMenu} href="tel:+420773775247">
+            <Link onClick={closeMobileMenu} href="https://www.instagram.com/hojgrstav/">
               <Image
                 className="mobile-menu-icon"
                 src={InstagramImg}
-                alt="Telefon"
+                alt="Instagram"
               />
             </Link>
             <Link href="#Uvod">
