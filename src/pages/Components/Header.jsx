@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import Logo from "../images/logo-header-desktop.png";
 import MobileLogo from "../images/logo-header-mobile.png";
 import PhoneImg from "../images/phone-call.png";
+import InstagramImg from "../images/instalogo.png";
 import Image from "next/image";
-import Link from "next/link"
-
+import Link from "next/link";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -67,6 +67,15 @@ const Header = () => {
               alt="Logo"
             />
           </Link>
+          <Link href="https://www.instagram.com/hojgrstav/">
+            <Image
+              className="header-instagram-img"
+              src={InstagramImg}
+              width="30"
+              height="30"
+              alt="Logo"
+            />
+          </Link>
         </div>
         <button
           onClick={() => setIsMobileMenuOpen((prevState) => !prevState)}
@@ -117,6 +126,13 @@ const Header = () => {
               <Image
                 className="mobile-menu-icon"
                 src={PhoneImg}
+                alt="Telefon"
+              />
+            </Link>
+            <Link onClick={closeMobileMenu} href="tel:+420773775247">
+              <Image
+                className="mobile-menu-icon"
+                src={InstagramImg}
                 alt="Telefon"
               />
             </Link>
