@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
     <Head>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-      <title>Hojgrstav</title>
+      <title>Tomáš Hojgr</title>
     </Head>
     <div className={inter.className}>
       <Component {...pageProps} />

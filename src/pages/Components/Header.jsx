@@ -67,7 +67,7 @@ const Header = () => {
               alt="Logo"
             />
           </Link>
-          <Link href="https://www.instagram.com/hojgrstav/">
+          <Link target="blank" href="https://www.instagram.com/tomas.hojgr/">
             <Image
               className="header-instagram-img"
               src={InstagramImg}
@@ -129,7 +129,7 @@ const Header = () => {
                 alt="Telefon"
               />
             </Link>
-            <Link onClick={closeMobileMenu} href="https://www.instagram.com/hojgrstav/">
+            <Link target="blank" onClick={closeMobileMenu} href="https://www.instagram.com/tomas.hojgr/">
               <Image
                 className="mobile-menu-icon"
                 src={InstagramImg}

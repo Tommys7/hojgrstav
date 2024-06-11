@@ -19,7 +19,7 @@ export default async function handler(
     const sentFrom = new Sender("info@hojgrstav.cz", "Hojgrstav");
 
     const recipients = [
-        new Recipient("hojgrstav@gmail.com", "Hojgrstav")
+        new Recipient("hojgr.tomas@email.cz", "Hojgrstav")
     ];
 
     const emailParams = new EmailParams()
