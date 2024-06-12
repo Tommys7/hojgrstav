@@ -1,4 +1,5 @@
 import Background from "../images/excav-22.jpg";
+// import Background from "../images/hoj-main-2.png"
 import Image from "next/image";
 import Link from "next/link"
 
