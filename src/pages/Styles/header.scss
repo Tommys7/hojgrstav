@@ -107,7 +107,11 @@
   }
 }
 
-
+.header-logo{
+  height: 65px;
+  object-fit: contain;
+  cursor: pointer;
+}
 
 .header-btn {
   position: relative;

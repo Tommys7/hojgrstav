@@ -1,6 +1,7 @@
 import Logo from "../images/logo-header-desktop.png";
 import Image from "next/image";
 import Link from "next/link";
+import Logo2 from "../images/hojgrstav-yellow.png"
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
             <Link className="mx-auto" href="#Uvod">
               <Image
                 className="footer-logo-img"
-                src={Logo}
+                src={Logo2}
                 width="129"
                 height="60"
                 alt="Logo"

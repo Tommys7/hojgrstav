@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Logo from "../images/logo-header-desktop.png";
+import Logo2 from "../images/hojgrstav-yellow.png"
 import MobileLogo from "../images/logo-header-mobile.png";
 import PhoneImg from "../images/phone-call.png";
 import InstagramImg from "../images/instalogo.png";
@@ -28,8 +29,8 @@ const Header = () => {
         <div className="header-img">
           <Link className="header-img__desktop" href="#Uvod">
             <Image
-              className="rounded-md-custom"
-              src={Logo}
+              className="rounded-md-custom header-logo"
+              src={Logo2}
               width="129"
               height="60"
               alt="Logo"
@@ -38,7 +39,7 @@ const Header = () => {
           <Link className="header-img__mobile" href="#Uvod">
             <Image
               className="rounded-md-custom"
-              src={MobileLogo}
+              src={Logo2}
               width="129"
               height="60"
               alt="Logo"
@@ -140,7 +141,7 @@ const Header = () => {
               <Image
                 onClick={closeMobileMenu}
                 className="header-open-logo-img"
-                src={MobileLogo}
+                src={Logo2}
                 alt="Logo"
               />
             </Link>
