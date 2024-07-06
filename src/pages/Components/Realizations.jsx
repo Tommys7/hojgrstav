@@ -83,7 +83,7 @@ const Realizations = () => {
           <SwiperSlide>
             <SwiperSlideComponent
               images={[Kolsov5, Kolsov6, Kolsov7, Kolsov8]}
-              title="II Zděný plot s hliníkovým polatím + dlažba"
+              title="II Zděný plot + dlažba"
               date="1.6.2024 - 3.6.2024"
               description="Dostavení zděného plotu o délce 12m, vybourání staré zídky a panelů, příprava pro zámkovou dlažbu vč. usazení obrubníků."
               client="M. Krobotová"
