@@ -17,7 +17,7 @@
 - add tel. cislo povinne DONT
 - remove console log errors for next image - optimalization
 - add google analytics
-- add pouzite stroje
+- add pouzite stroje DONE
 <<<<<TODO>>>>>
 <<<<<TODO>>>>>
 <<<<<TODO>>>>>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import CalendarImg from "../images/calendar.png";
 import ContractImg from "../images/contract.png";
 import UserImg from "../images/user.png";
+import Digger from "../images/digger.png"
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -11,31 +12,38 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
-function SwiperSlideComponent({ images = [], title, date, description, client }) {
+function SwiperSlideComponent({
+  images = [],
+  title,
+  date,
+  description,
+  client,
+  technique,
+}) {
   const [open, setOpen] = React.useState(false);
-  const lightboxSlides = images.map(image => {
-    if (typeof image === 'string') {
+  const lightboxSlides = images.map((image) => {
+    if (typeof image === "string") {
       return { src: image };
     } else if (image && image.src) {
       return { src: image.src };
     } else {
-      console.error('Invalid image format:', image);
-      return { src: '' };
+      console.error("Invalid image format:", image);
+      return { src: "" };
     }
   });
   return (
     <div>
       <Lightbox
         styles={{ container: { backgroundColor: "rgba(0, 0, 0, .6)" } }}
-
         open={open}
         plugins={[Thumbnails, Zoom]}
         close={() => setOpen(false)}
         slides={lightboxSlides}
-
       />
       <div className="swiper-slide-custom">
-        <button onClick={() => setOpen(true)} className="swiper-slide-btn">Otevřít galerii projektu</button>
+        <button onClick={() => setOpen(true)} className="swiper-slide-btn">
+          Otevřít galerii projektu
+        </button>
         <div className="swiper-slide-imgs">
           {images.map((src, index) => (
             <div key={index} className="swiper-slide-item">
@@ -97,6 +105,26 @@ function SwiperSlideComponent({ images = [], title, date, description, client })
               <p className="swiper-slide-date">{client}</p>
             </div>
           </div>
+
+          {technique ? (
+            <div className="swiper-slide-text">
+              <div>
+                <Image
+                  src={Digger}
+                  fill={true}
+                  placeholder="blur"
+                  className="swiper-slide-icon !static"
+                  alt="Ikona"
+                />
+              </div>
+              <div>
+                <span>Použitá technika</span>
+                <p className="swiper-slide-date">{technique}</p>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

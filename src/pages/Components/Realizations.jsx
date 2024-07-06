@@ -60,6 +60,7 @@ const Realizations = () => {
               date="29.4.2024 - 3.5.2024"
               description="Kompletní návrh řešení s ohledem na přistavění pergoly včetně zaměření. Klient si vybral přírodní zámkovou dlažbu a zahradní obrubníky."
               client="E. Hovadová"
+              technique="KUBOTA U-17"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -69,6 +70,7 @@ const Realizations = () => {
               date="26.6.2024 - 27.6.2024"
               description="Odkop hlíny v prostorech mezi obrubníky a domem, rozvoz štěrků pod dlažbu, příprava prostor pro pergolu, výkop drážky pro štěrk pod gabiony."
               client="P. Pospíšil"
+              technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -78,6 +80,7 @@ const Realizations = () => {
               date="15.8.2023 - 28.8.2023"
               description="Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné zeminy, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí."
               client="M. Krobotová"
+              technique="KUBOTA U-17"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -87,15 +90,17 @@ const Realizations = () => {
               date="1.6.2024 - 3.6.2024"
               description="Dostavení zděného plotu o délce 12m, vybourání staré zídky a panelů, příprava pro zámkovou dlažbu vč. usazení obrubníků."
               client="M. Krobotová"
+              technique="KUBOTA U-17"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
               images={[Dm1, Dm2, Dm3, Dm4]}
-              title="Okapové chodníčky Dolní Morava"
+              title="Okapové chodníky Dolní Morava"
               date="1.6.2024 - 3.6.2024"
               description="Obkopání apartmánového domu, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
               client="Metrostav"
+              technique="KUBOTA K008-3"
             />
           </SwiperSlide>
           <SwiperSlide>
