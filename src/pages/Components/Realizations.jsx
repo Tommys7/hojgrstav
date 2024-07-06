@@ -16,10 +16,25 @@ import Kolsov2 from "../images/jobs/Kolsov/kolsov2.jpg";
 import Kolsov3 from "../images/jobs/Kolsov/kolsov3.jpg";
 import Kolsov4 from "../images/jobs/Kolsov/kolsov4.jpg";
 
+import Kolsov5 from "../images/jobs/Kolsov/kolsov5.jpg";
+import Kolsov6 from "../images/jobs/Kolsov/kolsov6.jpg";
+import Kolsov7 from "../images/jobs/Kolsov/kolsov7.jpg";
+import Kolsov8 from "../images/jobs/Kolsov/kolsov8.jpg";
+
 import SudkovByt1 from "../images/jobs/Sudkov-byt/Sudkov-Byt-1.jpg";
 import SudkovByt2 from "../images/jobs/Sudkov-byt/Sudkov-Byt-2.jpg";
 import SudkovByt3 from "../images/jobs/Sudkov-byt/Sudkov-Byt-3.jpg";
 import SudkovByt4 from "../images/jobs/Sudkov-byt/Sudkov-Byt-4.jpg";
+
+import Pospa1 from "../images/jobs/Kolsov-pospisil/pospa1.jpg";
+import Pospa2 from "../images/jobs/Kolsov-pospisil/pospa2.jpg";
+import Pospa3 from "../images/jobs/Kolsov-pospisil/pospa3.jpg";
+import Pospa4 from "../images/jobs/Kolsov-pospisil/pospa4.jpg";
+
+import Dm1 from "../images/jobs/DM-chodnicky/dm1.jpg";
+import Dm2 from "../images/jobs/DM-chodnicky/dm2.jpg";
+import Dm3 from "../images/jobs/DM-chodnicky/dm3.jpg";
+import Dm4 from "../images/jobs/DM-chodnicky/dm4.jpg";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -49,11 +64,38 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Pospa2, Pospa1, Pospa3, Pospa4]}
+              title="I Přípravné zemní práce kolem RD"
+              date="26.6.2024 - 27.6.2024"
+              description="Odkop hlíny v prostorech mezi obrubníky a domem, rozvoz štěrků pod dlažbu, příprava prostor pro pergolu, výkop drážky pro štěrk pod gabiony."
+              client="P. Pospíšil"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Kolsov1, Kolsov2, Kolsov3, Kolsov4]}
-              title="Zděný plot s hliníkovým polatím"
+              title="I Zděný plot s hliníkovým polatím"
               date="15.8.2023 - 28.8.2023"
               description="Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné zeminy, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí."
               client="M. Krobotová"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Kolsov5, Kolsov6, Kolsov7, Kolsov8]}
+              title="II Zděný plot s hliníkovým polatím + dlažba"
+              date="1.6.2024 - 3.6.2024"
+              description="Dostavení zděného plotu o délce 12m, vybourání staré zídky a panelů, příprava pro zámkovou dlažbu vč. usazení obrubníků."
+              client="M. Krobotová"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Dm1, Dm2, Dm3, Dm4]}
+              title="Okapové chodníčky Dolní Morava"
+              date="1.6.2024 - 3.6.2024"
+              description="Obkopání apartmánového domu, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
+              client="Metrostav"
             />
           </SwiperSlide>
           <SwiperSlide>

@@ -15,9 +15,9 @@
 - refactor footer DONE
 - add background for work section, simillar to one used at form DONE
 - add tel. cislo povinne DONT
-- prace add podlaha flok, bazen babicka, zakladova deska DM
 - remove console log errors for next image - optimalization
-
+- add google analytics
+- add pouzite stroje
 <<<<<TODO>>>>>
 <<<<<TODO>>>>>
 <<<<<TODO>>>>>

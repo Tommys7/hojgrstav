@@ -52,7 +52,7 @@ function SwiperSlideComponent({ images = [], title, date, description, client })
         </div>
         <div className="swiper-slide-content">
           <h3 className="swiper-slide-title">{title}</h3>
-          {/* <div className="swiper-slide-text">
+          <div className="swiper-slide-text">
             <div>
               <Image
                 src={CalendarImg}
@@ -66,7 +66,7 @@ function SwiperSlideComponent({ images = [], title, date, description, client })
               <span>Termín</span>
               <p className="swiper-slide-date">{date}</p>
             </div>
-          </div> */}
+          </div>
           <div className="swiper-slide-text">
             <div>
               <Image
