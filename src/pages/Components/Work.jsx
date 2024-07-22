@@ -19,11 +19,11 @@ const Work = () => {
           </div>
           <div className="work-list text-center">
             <ul className="">
-              <li>Montáž bazénů</li>
+              <li>Bazény na klíč</li>
               <li>Základové desky</li>
               <li>Bourací práce</li>
               <li>Odvoz zeminy</li>
-              <li>Kanalizace, vodovody</li>
+              <li>Kanalizace, vodovody, trativody, opravy</li>
               <li>Rybníčky a vodní plochy</li>
               <li>A další!</li>
             </ul>

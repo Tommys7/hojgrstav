@@ -4,7 +4,7 @@ import Image from "next/image";
 import CalendarImg from "../images/calendar.png";
 import ContractImg from "../images/contract.png";
 import UserImg from "../images/user.png";
-import Digger from "../images/digger.png"
+import Digger from "../images/digger.png";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -90,21 +90,25 @@ function SwiperSlideComponent({
               <p className="swiper-slide-date">{description}</p>
             </div>
           </div>
-          <div className="swiper-slide-text">
-            <div>
-              <Image
-                src={UserImg}
-                fill={true}
-                placeholder="blur"
-                className="swiper-slide-icon !static"
-                alt="Ikona"
-              />
+          {client ? (
+            <div className="swiper-slide-text">
+              <div>
+                <Image
+                  src={UserImg}
+                  fill={true}
+                  placeholder="blur"
+                  className="swiper-slide-icon !static"
+                  alt="Ikona"
+                />
+              </div>
+              <div>
+                <span>Klient</span>
+                <p className="swiper-slide-date">{client}</p>
+              </div>
             </div>
-            <div>
-              <span>Klient</span>
-              <p className="swiper-slide-date">{client}</p>
-            </div>
-          </div>
+          ) : (
+            ""
+          )}
 
           {technique ? (
             <div className="swiper-slide-text">

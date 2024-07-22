@@ -36,6 +36,34 @@ import Dm2 from "../images/jobs/DM-chodnicky/dm2.jpg";
 import Dm3 from "../images/jobs/DM-chodnicky/dm3.jpg";
 import Dm4 from "../images/jobs/DM-chodnicky/dm4.jpg";
 
+import Poulik361 from "../images/jobs/poulik-36/poulik-36-1.jpg";
+import Poulik362 from "../images/jobs/poulik-36/poulik-36-2.jpg";
+import Poulik363 from "../images/jobs/poulik-36/poulik-36-3.jpg";
+import Poulik364 from "../images/jobs/poulik-36/poulik-36-4.jpg";
+
+import PoulikModel1 from "../images/jobs/Kolsov-poulik-teren/poulik-teren-1.jpg"
+import PoulikModel2 from "../images/jobs/Kolsov-poulik-teren/poulik-teren-2.jpg"
+import PoulikModel3 from "../images/jobs/Kolsov-poulik-teren/poulik-teren-3.jpg"
+import PoulikModel4 from "../images/jobs/Kolsov-poulik-teren/poulik-teren-4.jpg"
+
+import Sumperk151 from "../images/jobs/Sumperk-15/sumperk-15-1.jpg"
+import Sumperk152 from "../images/jobs/Sumperk-15/sumperk-15-2.jpg"
+import Sumperk153 from "../images/jobs/Sumperk-15/sumperk-15-3.jpg"
+import Sumperk154 from "../images/jobs/Sumperk-15/sumperk-15-4.jpg"
+
+import PospaModel1 from "../images/jobs/Kolsov-pospisil-model/pospa-model-1.jpg"
+import PospaModel2 from "../images/jobs/Kolsov-pospisil-model/pospa-model-2.jpg"
+import PospaModel3 from "../images/jobs/Kolsov-pospisil-model/pospa-model-3.jpg"
+import PospaModel4 from "../images/jobs/Kolsov-pospisil-model/pospa-model-4.jpg"
+
+import KanalOprava1 from "../images/jobs/Kanal-oprava/kanal-oprava-1.jpg"
+import KanalOprava2 from "../images/jobs/Kanal-oprava/kanal-oprava-2.jpg"
+import KanalOprava3 from "../images/jobs/Kanal-oprava/kanal-oprava-3.jpg"
+import KanalOprava4 from "../images/jobs/Kanal-oprava/kanal-oprava-4.jpg"
+
+
+
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -65,6 +93,25 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Poulik361, Poulik362, Poulik363, Poulik364]}
+              title="I Zámková dlažba 36m2"
+              date="8.7.2024 - 9.7.2024"
+              description="Navázání obrub na již postavené ztracené bednění, zhotovení lože ze štěrku frakce 4-8, kladení zámkové dlažby. Prostor bude sloužit jako letní kuchyň."
+              client="J. Poulík"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[PoulikModel1, PoulikModel2, PoulikModel3, PoulikModel4]}
+              title="II Úprava terénu před dlažbou"
+              date="10.7.2024"
+              description="Úprava terénu ve spádu od zámkové dlažby."
+              client="J. Poulík"
+              technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Pospa2, Pospa1, Pospa3, Pospa4]}
               title="I Přípravné zemní práce kolem RD"
               date="26.6.2024 - 27.6.2024"
@@ -73,6 +120,27 @@ const Realizations = () => {
               technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[PospaModel1, PospaModel2, PospaModel3, PospaModel4]}
+              title="II Modelování břehu na hranici pozemku"
+              date="12.7.2024"
+              description="Navýšení břehu ze zbylého materiálu z odkopu prostor pro pergolu. Na břehu bude v budoucnu stát pletivový plot."
+              client="P. Pospíšil"
+              technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Sumperk151, Sumperk152, Sumperk153, Sumperk154]}
+              title="Velkoformátová dlažba 16m2"
+              date="10.7.2024 - 17.7.2024"
+              description="Realizace velkoformátové dlažby na klíč. Kompletní zhotovení včetně úprav terénu."
+              client="P. Smirous"
+              technique="Minibagr K008-3, Cormidi C85"
+            />
+          </SwiperSlide>
+        
           <SwiperSlide>
             <SwiperSlideComponent
               images={[Kolsov1, Kolsov2, Kolsov3, Kolsov4]}
@@ -105,6 +173,16 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[KanalOprava1, KanalOprava2, KanalOprava3, KanalOprava4]}
+              title="Oprava kanalizační přípojky z RD"
+              date="25.7.2024"
+              description="Oprava prokoplé kanalizační přípojky."
+            />
+          </SwiperSlide>
+        
+        
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[SudkovByt4, SudkovByt2, SudkovByt3, SudkovByt1]}
               title="Finální práce byt Sudkov"
               date="5.2.2024 - 9.2.2024"
@@ -119,3 +197,22 @@ const Realizations = () => {
 };
 
 export default Realizations;
+
+
+
+
+{/* /> 
+
+ <SwiperSlide>
+            <SwiperSlideComponent
+              images={[HybesovaImg, HybesovaImg2, HybesovaImg3, HybesovaImg5]}
+              title="Zámková dlažba 30m2"
+              date="29.4.2024 - 3.5.2024"
+              description="add"
+              client="add"
+              technique="add"
+            />
+          </SwiperSlide>
+        
+        
+        */}
