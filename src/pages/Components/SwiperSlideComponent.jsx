@@ -53,6 +53,7 @@ function SwiperSlideComponent({
                 fill={true}
                 placeholder="blur"
                 alt="Zakázka"
+                sizes="240px"
                 className="!static"
               />
             </div>

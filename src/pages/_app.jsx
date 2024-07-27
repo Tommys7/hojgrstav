@@ -12,6 +12,7 @@ import "./Styles/mobile-menu.scss"
 import "./Styles/realization.scss"
 import "./Styles/reviews.scss"
 import "./Styles/work.scss"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <title>Tomáš Hojgr</title>
     </Head>
+    <GoogleAnalytics gaId="G-E2XYS1SEHC" />
     <div className={inter.className}>
       <Component {...pageProps} />
     </div>

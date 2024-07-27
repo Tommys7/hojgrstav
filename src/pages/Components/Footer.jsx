@@ -36,6 +36,7 @@ const Footer = () => {
                 className="footer-logo-img"
                 src={Logo2}
                 width="129"
+                sizes="128"
                 height="60"
                 alt="Logo"
               />

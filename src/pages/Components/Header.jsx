@@ -31,6 +31,7 @@ const Header = () => {
             <Image
               className="rounded-md-custom header-logo"
               src={Logo2}
+              sizes="256px"
               width="129"
               height="60"
               alt="Logo"
@@ -40,6 +41,7 @@ const Header = () => {
             <Image
               className="rounded-md-custom"
               src={Logo2}
+              sizes="256px"
               width="129"
               height="60"
               alt="Logo"
@@ -63,6 +65,7 @@ const Header = () => {
             <Image
               className="header-phone-img"
               src={PhoneImg}
+              sizes="64px"
               width="30"
               height="30"
               alt="Logo"

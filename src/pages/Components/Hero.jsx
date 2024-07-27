@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Image src={Background} fill={true} alt="Bagr" className="hero-bg" />
+      <Image src={Background} priority fill={true} sizes="100vw" alt="Bagr" className="hero-bg" />
     </div>
   );
 };
