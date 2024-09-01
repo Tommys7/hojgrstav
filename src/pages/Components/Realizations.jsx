@@ -131,7 +131,7 @@ const Realizations = () => {
               images={[Terasa1, Terasa2, Terasa3, Terasa4]}
               title="Terasa 48m2"
               date="28.7.2024 - 31.7.2024"
-              description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradli."
+              description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
               client="Metrostav"
               technique="KUBOTA U36-4"
             />
