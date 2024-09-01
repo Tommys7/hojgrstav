@@ -61,6 +61,22 @@ import KanalOprava2 from "../images/jobs/Kanal-oprava/kanal-oprava-2.jpg"
 import KanalOprava3 from "../images/jobs/Kanal-oprava/kanal-oprava-3.jpg"
 import KanalOprava4 from "../images/jobs/Kanal-oprava/kanal-oprava-4.jpg"
 
+import Jakubovice1 from "../images/jobs/Jakubovice-kanal/jakubovice-1.jpg"
+import Jakubovice2 from "../images/jobs/Jakubovice-kanal/jakubovice-2.jpg"
+import Jakubovice3 from "../images/jobs/Jakubovice-kanal/jakubovice-3.jpg"
+import Jakubovice4 from "../images/jobs/Jakubovice-kanal/jakubovice-4.jpg"
+
+import Terasa1 from "../images/jobs/dm-terasa/terasa-1.jpg"
+import Terasa2 from "../images/jobs/dm-terasa/terasa-2.jpg"
+import Terasa3 from "../images/jobs/dm-terasa/terasa-3.jpg"
+import Terasa4 from "../images/jobs/dm-terasa/terasa-4.jpg"
+
+import PospaDlazba1 from "../images/jobs/pospa-dlazba/pospa-dlazba-1.jpg"
+import PospaDlazba2 from "../images/jobs/pospa-dlazba/pospa-dlazba-2.jpg"
+import PospaDlazba3 from "../images/jobs/pospa-dlazba/pospa-dlazba-3.jpg"
+import PospaDlazba4 from "../images/jobs/pospa-dlazba/pospa-dlazba-4.jpg"
+
+
 
 
 
@@ -93,11 +109,31 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Jakubovice1, Jakubovice2, Jakubovice3, Jakubovice4]}
+              title="Kanalizační přípojka"
+              date="3.7.2024"
+              description="Napojení kanalizace o délce 20m z domu do zřízené šachty. Usazení pažícího boxu, obsyp pískem, terénní úpravy."
+              client="P. Hála"
+              technique="TAKEUCHI TB370"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Poulik361, Poulik362, Poulik363, Poulik364]}
               title="I Zámková dlažba 36m2"
               date="8.7.2024 - 9.7.2024"
               description="Navázání obrub na již postavené ztracené bednění, zhotovení lože ze štěrku frakce 4-8, kladení zámkové dlažby. Prostor bude sloužit jako letní kuchyň."
               client="J. Poulík"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Terasa1, Terasa2, Terasa3, Terasa4]}
+              title="Terasa 48m2"
+              date="28.7.2024 - 31.7.2024"
+              description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradli."
+              client="Metrostav"
+              technique="KUBOTA U36-4"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -132,12 +168,21 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[PospaDlazba1, PospaDlazba2, PospaDlazba3, PospaDlazba4]}
+              title="Zámková dlažba 120m2"
+              date="25.7.2024 - 26.7.2024"
+              description="Hutnění, srovnání podkladu štěrkem 4-8, položení dlažby."
+              client="P. Pospíšil"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Sumperk151, Sumperk152, Sumperk153, Sumperk154]}
               title="Velkoformátová dlažba 16m2"
               date="10.7.2024 - 17.7.2024"
               description="Realizace velkoformátové dlažby na klíč. Kompletní zhotovení včetně úprav terénu."
               client="P. Smirous"
-              technique="Minibagr K008-3, Cormidi C85"
+              technique="KUBOTA K008-3, Cormidi C85"
             />
           </SwiperSlide>
         
