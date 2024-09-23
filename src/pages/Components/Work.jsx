@@ -15,6 +15,8 @@ const Work = () => {
               <li>Zemní a výkopové práce</li>
               <li>Podlahy</li>
               <li>Terénní úpravy</li>
+              <li>Inženýrské sítě</li>
+              <li>Přípravné a dokončovací stavební práce</li>
             </ul>
           </div>
           <div className="work-list text-center">
@@ -25,6 +27,7 @@ const Work = () => {
               <li>Odvoz zeminy</li>
               <li>Kanalizace, vodovody, trativody, opravy</li>
               <li>Rybníčky a vodní plochy</li>
+              <li>Veřejné osvětlení</li>
               <li>A další!</li>
             </ul>
           </div>

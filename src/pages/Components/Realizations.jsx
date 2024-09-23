@@ -76,6 +76,21 @@ import PospaDlazba2 from "../images/jobs/pospa-dlazba/pospa-dlazba-2.jpg"
 import PospaDlazba3 from "../images/jobs/pospa-dlazba/pospa-dlazba-3.jpg"
 import PospaDlazba4 from "../images/jobs/pospa-dlazba/pospa-dlazba-4.jpg"
 
+import Poklopy1 from "../images/jobs/poklopy/poklopy1.jpg"
+import Poklopy2 from "../images/jobs/poklopy/poklopy2.jpg"
+import Poklopy3 from "../images/jobs/poklopy/poklopy3.jpg"
+import Poklopy4 from "../images/jobs/poklopy/poklopy4.jpg"
+
+import Zvole1 from "../images/jobs/zvole/zvole1.jpg"
+import Zvole2 from "../images/jobs/zvole/zvole2.jpg"
+
+import Hradec1 from "../images/jobs/hradec/hradec1.jpg"
+import Hradec2 from "../images/jobs/hradec/hradec2.jpg"
+import Hradec3 from "../images/jobs/hradec/hradec3.jpg"
+import Hradec4 from "../images/jobs/hradec/hradec4.jpg"
+
+
+
 
 
 
@@ -119,6 +134,16 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Poklopy1, Poklopy2, Poklopy3, Poklopy4]}
+              title="Zvedání litinových poklopů"
+              date="22.8.2024 - 11.9.2024"
+              description="Zvedání kanalizačních, teleskopických, hydrantových a šoupátkových poklopů na požadovanou výšku před finálním asfaltem."
+              client="Metrostav"
+              technique="KUBOTA U36-4, dumper Wacker Neuson"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Poulik361, Poulik362, Poulik363, Poulik364]}
               title="I Zámková dlažba 36m2"
               date="8.7.2024 - 9.7.2024"
@@ -128,12 +153,30 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Hradec1, Hradec2, Hradec3, Hradec4]}
+              title="Základy a rozvody pro nabíjecí stanice"
+              date="18.9"
+              description="Rozebrání dlažby, silové a datové rozvody, vybetonování základů, složení dlažby."
+              client="Volvo Truck Center Hradec Králové"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Zvole1, Zvole1, Zvole2, Zvole2]}
+              title="Velkoformátová pojezdová dlažba 70m2"
+              date="10.9.2024 - 11.9.2024"
+              description="Položení velkoformátové dlažby do již nachystaného štěrkového podkladu."
+              client="R. Kolčava"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Terasa1, Terasa2, Terasa3, Terasa4]}
               title="Terasa 48m2"
               date="28.7.2024 - 31.7.2024"
               description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
               client="Metrostav"
-              technique="KUBOTA U36-4"
+              technique="KUBOTA U36-4, dumper Wacker Neuson"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -213,7 +256,7 @@ const Realizations = () => {
               date="1.6.2024 - 3.6.2024"
               description="Obkopání apartmánového domu, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
               client="Metrostav"
-              technique="KUBOTA K008-3"
+              technique="KUBOTA K008-3, dumper Wacker Neuson DT 12"
             />
           </SwiperSlide>
           <SwiperSlide>
