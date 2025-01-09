@@ -89,6 +89,25 @@ import Hradec2 from "../images/jobs/hradec/hradec2.jpg"
 import Hradec3 from "../images/jobs/hradec/hradec3.jpg"
 import Hradec4 from "../images/jobs/hradec/hradec4.jpg"
 
+import Sudkov1 from "../images/jobs/Skolka/skolka1.jpg"
+import Sudkov2 from "../images/jobs/Skolka/skolka2.jpg"
+import Sudkov3 from "../images/jobs/Skolka/skolka3.jpg"
+import Sudkov4 from "../images/jobs/Skolka/skolka4.jpg"
+
+import Povoden1 from "../images/jobs/Povoden/povoden1.jpg"
+import Povoden2 from "../images/jobs/Povoden/povoden2.jpg"
+import Povoden3 from "../images/jobs/Povoden/povoden3.jpg"
+import Povoden4 from "../images/jobs/Povoden/povoden4.jpg"
+
+
+import Drenaz1 from "../images/jobs/Drenaz/drenaz1.jpg"
+import Drenaz2 from "../images/jobs/Drenaz/drenaz2.jpg"
+
+import Sloupy1 from "../images/jobs/Sloupy/sloupy1.jpg"
+import Sloupy2 from "../images/jobs/Sloupy/sloupy2.jpg"
+
+
+
 
 
 
@@ -135,20 +154,21 @@ const Realizations = () => {
           <SwiperSlide>
             <SwiperSlideComponent
               images={[Poklopy1, Poklopy2, Poklopy3, Poklopy4]}
-              title="Zvedání litinových poklopů"
+              title="Vyrovnávání litinových poklopů"
               date="22.8.2024 - 11.9.2024"
-              description="Zvedání kanalizačních, teleskopických, hydrantových a šoupátkových poklopů na požadovanou výšku před finálním asfaltem."
+              description="Vyrovnávání kanalizačních, teleskopických, hydrantových a šoupátkových poklopů na požadovanou výšku před finálním asfaltem."
               client="Metrostav"
               technique="KUBOTA U36-4, dumper Wacker Neuson"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Poulik361, Poulik362, Poulik363, Poulik364]}
-              title="I Zámková dlažba 36m2"
-              date="8.7.2024 - 9.7.2024"
-              description="Navázání obrub na již postavené ztracené bednění, zhotovení lože ze štěrku frakce 4-8, kladení zámkové dlažby. Prostor bude sloužit jako letní kuchyň."
-              client="J. Poulík"
+              images={[Povoden1, Povoden2, Povoden3, Povoden4]}
+              title="Oprava pěší komunikace po povodních"
+              date="25.9.2024 - 27.9.2024"
+              description="Sanace podkladu, usazení VO vč. zabetonování pouzdra, položení zámkové dlažby, osazení hráze lomovým kamenem"
+              client="Obec Sudkov"
+              technique="KUBOTA U36-4"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -162,7 +182,26 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Zvole1, Zvole1, Zvole2, Zvole2]}
+              images={[Terasa1, Terasa2, Terasa3, Terasa4]}
+              title="Terasa 48m2"
+              date="28.7.2024 - 31.7.2024"
+              description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
+              client="Metrostav"
+              technique="KUBOTA U36-4, dumper Wacker Neuson"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Sudkov1, Sudkov2, Sudkov3, Sudkov4]}
+              title="Pěší komunikace - Sudkov Školka"
+              date="28.10.2024 - 31.10.2024"
+              description="Likvidace původního asfaltového povrchu, nahrazení zámkovou dlažbou."
+              client="Obec Sudkov"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Zvole1, Zvole2]}
               title="Velkoformátová pojezdová dlažba 70m2"
               date="10.9.2024 - 11.9.2024"
               description="Položení velkoformátové dlažby do již nachystaného štěrkového podkladu."
@@ -171,12 +210,20 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Terasa1, Terasa2, Terasa3, Terasa4]}
-              title="Terasa 48m2"
-              date="28.7.2024 - 31.7.2024"
-              description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
-              client="Metrostav"
-              technique="KUBOTA U36-4, dumper Wacker Neuson"
+              images={[Drenaz1, Drenaz2]}
+              title="Odvodnění šachet pro sněžná děla"
+              date="20.10.2024 - 30.10.2024"
+              description="Odvodnění šachet pro sněžná děla"
+              technique="KUBOTA KX080"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Poulik361, Poulik362, Poulik363, Poulik364]}
+              title="I Zámková dlažba 36m2"
+              date="8.7.2024 - 9.7.2024"
+              description="Navázání obrub na již postavené ztracené bednění, zhotovení lože ze štěrku frakce 4-8, kladení zámkové dlažby. Prostor bude sloužit jako letní kuchyň."
+              client="J. Poulík"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -211,8 +258,18 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Sloupy1, Sloupy2]}
+              title="III Betonové sloupy"
+              date="18.7.2024 - 19.7.2024"
+              description="Vyvrtání děr, zabetonování sloupů pro plot"
+              client="P. Pospíšil"
+              technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[PospaDlazba1, PospaDlazba2, PospaDlazba3, PospaDlazba4]}
-              title="Zámková dlažba 120m2"
+              title="IV Zámková dlažba 120m2"
               date="25.7.2024 - 26.7.2024"
               description="Hutnění, srovnání podkladu štěrkem 4-8, položení dlažby."
               client="P. Pospíšil"
@@ -265,17 +322,6 @@ const Realizations = () => {
               title="Oprava kanalizační přípojky z RD"
               date="25.7.2024"
               description="Oprava prokoplé kanalizační přípojky."
-            />
-          </SwiperSlide>
-        
-        
-          <SwiperSlide>
-            <SwiperSlideComponent
-              images={[SudkovByt4, SudkovByt2, SudkovByt3, SudkovByt1]}
-              title="Finální práce byt Sudkov"
-              date="5.2.2024 - 9.2.2024"
-              description="Finální práce na rekonstruovaném bytě v Sudkově. Kompletní pokládka podlah, montáž nábytku, montáž umyvadla do obkladu včetně napojení odpadu."
-              client="S. Hájková"
             />
           </SwiperSlide>
         </Swiper>
