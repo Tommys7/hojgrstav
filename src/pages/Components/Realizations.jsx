@@ -175,7 +175,7 @@ const Realizations = () => {
             <SwiperSlideComponent
               images={[Hradec1, Hradec2, Hradec3, Hradec4]}
               title="Základy a rozvody pro nabíjecí stanice"
-              date="18.9"
+              date="18.9.2024"
               description="Rozebrání dlažby, silové a datové rozvody, vybetonování základů, složení dlažby."
               client="Volvo Truck Center Hradec Králové"
             />

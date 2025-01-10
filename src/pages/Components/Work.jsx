@@ -9,7 +9,7 @@ const Work = () => {
           <div className="work-list text-center">
             <ul className="">
               <li>Venkovní dlažby</li>
-              <li>Zděné, betonové a pletivové ploty</li>
+              <li>Zděné, betonové, hliníkové a pletivové ploty</li>
               <li>Ztracené bednění</li>
               <li>Pergoly</li>
               <li>Zemní a výkopové práce</li>
@@ -28,6 +28,7 @@ const Work = () => {
               <li>Kanalizace, vodovody, trativody, opravy</li>
               <li>Rybníčky a vodní plochy</li>
               <li>Veřejné osvětlení</li>
+              <li>Elektrické brány</li>
               <li>A další!</li>
             </ul>
           </div>
