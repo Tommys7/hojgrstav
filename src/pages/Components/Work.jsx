@@ -33,6 +33,10 @@ const Work = () => {
             </ul>
           </div>
         </div>
+        <div className="operate">
+        <h4 className="text-center mt-8 section-title !mb-8">Kde působíme?</h4>
+        <h4 className="text-center">Naše projekty realizujeme především v Olomouckém kraji, zejména v okrese Šumperk.</h4>
+        </div>
       </div>
     </div>
   );

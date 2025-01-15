@@ -52,9 +52,6 @@ const Header = () => {
           <Link className="header-link" href="#Realizace">
             Realizace
           </Link>
-          <Link className="header-link" href="#Recenze">
-            Recenze
-          </Link>
           <Link className="header-link" href="#Poptavka">
             Poptávka
           </Link>
@@ -114,9 +111,6 @@ const Header = () => {
           <div className="mobile-menu-links">
             <Link onClick={closeMobileMenu} href="#Realizace">
               Realizace
-            </Link>
-            <Link onClick={closeMobileMenu} href="#Recenze">
-              Recenze
             </Link>
             <Link onClick={closeMobileMenu} href="#Kontakt">
               Kontakt

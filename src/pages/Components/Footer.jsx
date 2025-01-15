@@ -16,11 +16,6 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <Link className="footer-link" href="#Recenze">
-                  Recenze
-                </Link>
-              </div>
-              <div>
                 <Link className="footer-link" href="#Poptavka">
                   Poptávka
                 </Link>
@@ -55,6 +50,7 @@ const Footer = () => {
                     hojgr.tomas@email.cz
                   </Link>
                 </div>
+                <span>IČ: 14131056</span>
               </div>
             </div>
           </div>
