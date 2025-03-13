@@ -109,6 +109,22 @@ import Sloupy2 from "../images/jobs/Sloupy/sloupy2.jpg"
 
 
 
+import Dm11 from "../images/jobs/content1/dm1/dm1.jpg"
+import Dm12 from "../images/jobs/content1/dm1/dm2.jpg"
+import Dm13 from "../images/jobs/content1/dm1/dm3.jpg"
+import Dm14 from "../images/jobs/content1/dm1/dm4.jpg"
+
+
+import Dm21 from "../images/jobs/content1/dm2/dm1.jpg"
+import Dm22 from "../images/jobs/content1/dm2/dm2.jpg"
+import Dm23 from "../images/jobs/content1/dm2/dm3.jpg"
+import Dm24 from "../images/jobs/content1/dm2/dm4.jpg"
+
+import Sud1 from "../images/jobs/content1/sud1/sud1.jpg"
+import Sud2 from "../images/jobs/content1/sud1/sud2.jpg"
+import Sud3 from "../images/jobs/content1/sud1/sud3.jpg"
+import Sud4 from "../images/jobs/content1/sud1/sud4.jpg"
+
 
 
 
@@ -133,12 +149,32 @@ const Realizations = () => {
         >
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Sud1, Sud2, Sud3, Sud4]}
+              title="Pozemní komunikace 120m2 - Sudkov Školka"
+              date="20.11.2024 - 2.12.2024"
+              description="Vybourání a následné vybudování pojizdné komunikace ze zámkové dlažby."
+              client="Obec Sudkov"
+              technique="Kubota KX080-3a, Wacker Neuson DT-8, Tremix MV480"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[HybesovaImg, HybesovaImg2, HybesovaImg3, HybesovaImg5]}
               title="Zámková dlažba 30m2"
               date="29.4.2024 - 3.5.2024"
               description="Kompletní návrh řešení s ohledem na přistavění pergoly včetně zaměření. Klient si vybral přírodní zámkovou dlažbu a zahradní obrubníky."
               client="E. Hovadová"
               technique="KUBOTA U-17"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Dm21, Dm22, Dm24, Dm23]}
+              title="Zemní práce pro  výstavbu opěrné zdi"
+              date="3.3.2025 - 5.3.2025"
+              description="Zemní práce dle projektu pro výstavbu opěrné zdi."
+              client="Horský resort Dolní Morava"
+              technique="Kubota KX080, Wacker Neuson DT-8, Tremix MV480, Manitou, Mercedes Atego 1218"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -153,12 +189,40 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
+              images={[Hradec1, Hradec2, Hradec3, Hradec4]}
+              title="Základy a rozvody pro nabíjecí stanice"
+              date="18.9.2024"
+              description="Rozebrání dlažby, silové a datové rozvody, vybetonování základů, složení dlažby."
+              client="Volvo Truck Center Hradec Králové"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Dm11, Dm12, Dm13, Dm14]}
+              title="Totemy Vista Apartments"
+              date="13.10.2024"
+              description="Výkop a usazení panelů pro usazení totemů Vista Apartments"
+              client="Metrostav"
+              technique="KUBOTA U36-4, Manitou"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
               images={[Poklopy1, Poklopy2, Poklopy3, Poklopy4]}
               title="Vyrovnávání litinových poklopů"
               date="22.8.2024 - 11.9.2024"
               description="Vyrovnávání kanalizačních, teleskopických, hydrantových a šoupátkových poklopů na požadovanou výšku před finálním asfaltem."
               client="Metrostav"
-              technique="KUBOTA U36-4, dumper Wacker Neuson"
+              technique="KUBOTA U36-4, Wacker Neuson DT-8"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Zvole1, Zvole2]}
+              title="Velkoformátová pojezdová dlažba 70m2"
+              date="10.9.2024 - 11.9.2024"
+              description="Srovnání nachystaného štěrkového podkladu a položení velkoformátové dlažby."
+              client="R. Kolčava"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -173,21 +237,12 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Hradec1, Hradec2, Hradec3, Hradec4]}
-              title="Základy a rozvody pro nabíjecí stanice"
-              date="18.9.2024"
-              description="Rozebrání dlažby, silové a datové rozvody, vybetonování základů, složení dlažby."
-              client="Volvo Truck Center Hradec Králové"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <SwiperSlideComponent
               images={[Terasa1, Terasa2, Terasa3, Terasa4]}
               title="Terasa 48m2"
               date="28.7.2024 - 31.7.2024"
               description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
               client="Metrostav"
-              technique="KUBOTA U36-4, dumper Wacker Neuson"
+              technique="KUBOTA U36-4, Wacker Neuson DT-8"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -201,20 +256,12 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Zvole1, Zvole2]}
-              title="Velkoformátová pojezdová dlažba 70m2"
-              date="10.9.2024 - 11.9.2024"
-              description="Položení velkoformátové dlažby do již nachystaného štěrkového podkladu."
-              client="R. Kolčava"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <SwiperSlideComponent
               images={[Drenaz1, Drenaz2]}
               title="Odvodnění šachet pro sněžná děla"
               date="20.10.2024 - 30.10.2024"
               description="Odvodnění šachet pro sněžná děla"
               technique="KUBOTA KX080"
+              client="Horský resort Dolní Morava"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -311,9 +358,9 @@ const Realizations = () => {
               images={[Dm1, Dm2, Dm3, Dm4]}
               title="Okapové chodníky Dolní Morava"
               date="1.6.2024 - 3.6.2024"
-              description="Obkopání apartmánového domu, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
+              description="Obkopání apartmánových domů, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
               client="Metrostav"
-              technique="KUBOTA K008-3, dumper Wacker Neuson DT 12"
+              technique="KUBOTA K008-3, Wacker Neuson DT-8"
             />
           </SwiperSlide>
           <SwiperSlide>
