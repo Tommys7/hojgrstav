@@ -125,6 +125,21 @@ import Sud2 from "../images/jobs/content1/sud1/sud2.jpg"
 import Sud3 from "../images/jobs/content1/sud1/sud3.jpg"
 import Sud4 from "../images/jobs/content1/sud1/sud4.jpg"
 
+import hejnyKpl1 from "../images/jobs/hejnyKpl/hm1.jpg"
+import hejnyKpl2 from "../images/jobs/hejnyKpl/hm2.jpg"
+import hejnyKpl3 from "../images/jobs/hejnyKpl/hm3.jpg"
+import hejnyKpl4 from "../images/jobs/hejnyKpl/hm4.jpg"
+
+import hejnySt1 from "../images/jobs/hejnySt/hs1.jpg"
+import hejnySt2 from "../images/jobs/hejnySt/hs2.jpg"
+import hejnySt3 from "../images/jobs/hejnySt/hs3.jpg"
+import hejnySt4 from "../images/jobs/hejnySt/hs4.jpg"
+
+import hz1 from "../images/jobs/hejnyZaklad/zaklad1.jpg"
+import hz2 from "../images/jobs/hejnyZaklad/zaklad2.jpg"
+import hz3 from "../images/jobs/hejnyZaklad/zaklad3.jpg"
+import hz4 from "../images/jobs/hejnyZaklad/zaklad4.jpg"
+
 
 
 
@@ -149,15 +164,45 @@ const Realizations = () => {
         >
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Sud1, Sud2, Sud3, Sud4]}
-              title="Pozemní komunikace 120m2 - Sudkov Školka"
-              date="20.11.2024 - 2.12.2024"
-              description="Vybourání a následné vybudování pojizdné komunikace ze zámkové dlažby."
-              client="Obec Sudkov"
+              images={[hejnyKpl1, hejnyKpl4, hejnyKpl3, hejnyKpl2]}
+              title="Kompletní realizace zahrady 1000m2"
+              date="Květen 2025"
+              description="230m2 zpevněných ploch ze tří druhů zámkových dlažeb, okapový chodníček z mramorového kačírku, strojní srovnání pozemku 200t zeminy, ruční srovnání 40t ornice."
+              client="R. Hejný"
               technique="Kubota KX080-3a, Wacker Neuson DT-8, Tremix MV480"
             />
           </SwiperSlide>
           <SwiperSlide>
+            <SwiperSlideComponent
+              images={[hz2, hz1, hz3, hz4]}
+              title="Základ ze ztraceného bednění + vyzdění el. sloupku"
+              date="Květen 2025"
+              description="Zemní práce, základový pas, ztracené bednění, el. sloupek."
+              client="R. Hejný"
+              technique="Kubota KX080-3a"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[hejnySt1, hejnySt2, hejnySt3, hejnySt4]}
+              title="Rozšíření zámkové dlažby před RD"
+              date="Červen 2025"
+              description="Realizováno 65m2 nové dlažby, srovnání 40m2 dlažby"
+              client="S. Hejný"
+              technique="Kubota U36-4, Wacker Neuson DT-8, Tremix MV480"
+            />
+          </SwiperSlide>
+          <SwiperSlide> {/* Skolka 120m2 */}
+            <SwiperSlideComponent
+              images={[Sud1, Sud2, Sud3, Sud4]}
+              title="Pozemní komunikace 120m2 - Sudkov Školka"
+              date="20.11.2024 - 2.12.2024"
+              description="Vybourání a následné vybudování pozemní komunikace ze zámkové dlažby."
+              client="Obec Sudkov"
+              technique="Kubota KX080-3a, Wacker Neuson DT-8, Tremix MV480"
+            />
+          </SwiperSlide>
+          <SwiperSlide> {/* Hovadova */}
             <SwiperSlideComponent
               images={[HybesovaImg, HybesovaImg2, HybesovaImg3, HybesovaImg5]}
               title="Zámková dlažba 30m2"
@@ -166,8 +211,8 @@ const Realizations = () => {
               client="E. Hovadová"
               technique="KUBOTA U-17"
             />
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> 
+          <SwiperSlide> {/* Marcelka zemni prace */}
             <SwiperSlideComponent
               images={[Dm21, Dm22, Dm24, Dm23]}
               title="Zemní práce pro  výstavbu opěrné zdi"
