@@ -164,7 +164,7 @@ const Realizations = () => {
         >
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[hejnyKpl1, hejnyKpl4, hejnyKpl3, hejnyKpl2]}
+              images={[hejnyKpl2, hejnyKpl4, hejnyKpl3, hejnyKpl1]}
               title="Kompletní realizace zahrady 1000m2"
               date="Květen 2025"
               description="230m2 zpevněných ploch ze tří druhů zámkových dlažeb, okapový chodníček z mramorového kačírku, strojní srovnání pozemku 200t zeminy, ruční srovnání 40t ornice."
