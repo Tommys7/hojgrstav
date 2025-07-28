@@ -52,7 +52,7 @@
 }
 
 .swiper-slide-imgs {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     /* Two columns */
     grid-template-rows: 1fr 1fr;
@@ -78,6 +78,10 @@
     /* Maintain aspect ratio */
     aspect-ratio: 1/1;
     border-radius: .5rem;
+}
+
+.swiper-slide-item {
+    width: 100%
 }
 
 @media (max-width: 800px) {

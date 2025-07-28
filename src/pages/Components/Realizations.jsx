@@ -140,6 +140,21 @@ import hz2 from "../images/jobs/hejnyZaklad/zaklad2.jpg"
 import hz3 from "../images/jobs/hejnyZaklad/zaklad3.jpg"
 import hz4 from "../images/jobs/hejnyZaklad/zaklad4.jpg"
 
+import prijezdovka1 from "../images/jobs/prijezdovka/prijezdovka-1.jpg"
+import prijezdovka2 from "../images/jobs/prijezdovka/prijezdovka-2.jpg"
+
+
+import KolsovSterk1 from "../images/jobs/kolsov-sterk/kolsov-sterk-1.jpg"
+import KolsovSterk2 from "../images/jobs/kolsov-sterk/kolsov-sterk-2.jpg"
+
+import Bednari1 from "../images/jobs/bednari/bednari-1.jpg"
+import Bednari2 from "../images/jobs/bednari/bednari-2.jpg"
+
+import HradecArrow from "../images/jobs/hradec-arrow/hradec-arrow.jpg"
+
+
+
+
 
 
 
@@ -164,7 +179,7 @@ const Realizations = () => {
         >
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[hejnyKpl2, hejnyKpl4, hejnyKpl3, hejnyKpl1]}
+              images={[hejnyKpl1, hejnyKpl2]}
               title="Kompletní realizace zahrady 1000m2"
               date="Květen 2025"
               description="230m2 zpevněných ploch ze tří druhů zámkových dlažeb, okapový chodníček z mramorového kačírku, strojní srovnání pozemku 200t zeminy, ruční srovnání 40t ornice."
@@ -172,29 +187,30 @@ const Realizations = () => {
               technique="Kubota KX080-3a, Wacker Neuson DT-8, Tremix MV480"
             />
           </SwiperSlide>
+
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[hz2, hz1, hz3, hz4]}
-              title="Základ ze ztraceného bednění + vyzdění el. sloupku"
-              date="Květen 2025"
-              description="Zemní práce, základový pas, ztracené bednění, el. sloupek."
-              client="R. Hejný"
-              technique="Kubota KX080-3a"
+              images={[prijezdovka1, prijezdovka2]}
+              title="Pozemní komunikace 300m2"
+              date="Červenec 2025"
+              description="300m2 příjezdová cesta sloužící pro 3 parcely, konstruována pro zátěž 20t"
+              client="S. Hejný"
+              technique="Kubota KX080-3a, Wacker Neuson DT-8, Tremix MV480, Kubota U36-4, Mercedes ATEGO"
             />
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[hejnySt1, hejnySt2, hejnySt3, hejnySt4]}
-              title="Rozšíření zámkové dlažby před RD"
+              images={[KolsovSterk1, KolsovSterk2]}
+              title="Výkop pro základové pasy, uložení štěrku pod základovou desku"
               date="Červen 2025"
-              description="Realizováno 65m2 nové dlažby, srovnání 40m2 dlažby"
-              client="S. Hejný"
-              technique="Kubota U36-4, Wacker Neuson DT-8, Tremix MV480"
+              description="Zemní práce, základový pas, ztracené bednění, el. sloupek."
+              client="J. Adámková"
+              technique="Kubota U36-4, Mercedes ATEGO, Tremix MV480"
             />
           </SwiperSlide>
           <SwiperSlide> {/* Skolka 120m2 */}
             <SwiperSlideComponent
-              images={[Sud1, Sud2, Sud3, Sud4]}
+              images={[Sud4]}
               title="Pozemní komunikace 120m2 - Sudkov Školka"
               date="20.11.2024 - 2.12.2024"
               description="Vybourání a následné vybudování pozemní komunikace ze zámkové dlažby."
@@ -204,7 +220,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide> {/* Hovadova */}
             <SwiperSlideComponent
-              images={[HybesovaImg, HybesovaImg2, HybesovaImg3, HybesovaImg5]}
+              images={[HybesovaImg5]}
               title="Zámková dlažba 30m2"
               date="29.4.2024 - 3.5.2024"
               description="Kompletní návrh řešení s ohledem na přistavění pergoly včetně zaměření. Klient si vybral přírodní zámkovou dlažbu a zahradní obrubníky."
@@ -212,9 +228,29 @@ const Realizations = () => {
               technique="KUBOTA U-17"
             />
           </SwiperSlide> 
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[hz4]}
+              title="Základ ze ztraceného bednění + vyzdění el. sloupku"
+              date="Květen 2025"
+              description="Zemní práce, základový pas, ztracené bednění, el. sloupek."
+              client="R. Hejný"
+              technique="Kubota KX080-3a"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Bednari1, Bednari2]}
+              title="Zámková dlažba 70m2"
+              date="Červen 2025"
+              description="Zemní práce, pokládka dlažby"
+              client="MUDr. R. Bednář"
+              technique="Kubota U36-4, Mercedes ATEGO, Tremix MV480, Wacker Neuson DT-10"
+            />
+          </SwiperSlide>
           <SwiperSlide> {/* Marcelka zemni prace */}
             <SwiperSlideComponent
-              images={[Dm21, Dm22, Dm24, Dm23]}
+              images={[Dm23]}
               title="Zemní práce pro  výstavbu opěrné zdi"
               date="3.3.2025 - 5.3.2025"
               description="Zemní práce dle projektu pro výstavbu opěrné zdi."
@@ -224,7 +260,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Jakubovice1, Jakubovice2, Jakubovice3, Jakubovice4]}
+              images={[Jakubovice2]}
               title="Kanalizační přípojka"
               date="3.7.2024"
               description="Napojení kanalizace o délce 20m z domu do zřízené šachty. Usazení pažícího boxu, obsyp pískem, terénní úpravy."
@@ -234,7 +270,26 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Hradec1, Hradec2, Hradec3, Hradec4]}
+              images={[hejnySt4]}
+              title="Rozšíření zámkové dlažby před RD"
+              date="Červen 2025"
+              description="Realizováno 65m2 nové dlažby, srovnání 40m2 dlažby."
+              client="S. Hejný"
+              technique="Kubota U36-4, Wacker Neuson DT-8, Tremix MV480"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[HradecArrow]}
+              title="Přeložení zámkové dlažby 100m2"
+              date="Červen 2025"
+              description="Přeložení zámkové dlažby, dlažba byla po letech udržování chem. prostředky zničena."
+              client="Arrow Hradec Králové"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SwiperSlideComponent
+              images={[Hradec4]}
               title="Základy a rozvody pro nabíjecí stanice"
               date="18.9.2024"
               description="Rozebrání dlažby, silové a datové rozvody, vybetonování základů, složení dlažby."
@@ -243,7 +298,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Dm11, Dm12, Dm13, Dm14]}
+              images={[Dm14]}
               title="Totemy Vista Apartments"
               date="13.10.2024"
               description="Výkop a usazení panelů pro usazení totemů Vista Apartments"
@@ -253,7 +308,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Poklopy1, Poklopy2, Poklopy3, Poklopy4]}
+              images={[Poklopy4]}
               title="Vyrovnávání litinových poklopů"
               date="22.8.2024 - 11.9.2024"
               description="Vyrovnávání kanalizačních, teleskopických, hydrantových a šoupátkových poklopů na požadovanou výšku před finálním asfaltem."
@@ -263,7 +318,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Zvole1, Zvole2]}
+              images={[Zvole2]}
               title="Velkoformátová pojezdová dlažba 70m2"
               date="10.9.2024 - 11.9.2024"
               description="Srovnání nachystaného štěrkového podkladu a položení velkoformátové dlažby."
@@ -272,7 +327,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Povoden1, Povoden2, Povoden3, Povoden4]}
+              images={[Povoden4]}
               title="Oprava pěší komunikace po povodních"
               date="25.9.2024 - 27.9.2024"
               description="Sanace podkladu, usazení VO vč. zabetonování pouzdra, položení zámkové dlažby, osazení hráze lomovým kamenem"
@@ -282,7 +337,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Terasa1, Terasa2, Terasa3, Terasa4]}
+              images={[Terasa4]}
               title="Terasa 48m2"
               date="28.7.2024 - 31.7.2024"
               description="Venkovní terasa z velkoformátové dlažby s vybetonováním 14 pouzder 30x30x80 pro osazení zábradlí."
@@ -292,7 +347,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Sudkov1, Sudkov2, Sudkov3, Sudkov4]}
+              images={[Sudkov4]}
               title="Pěší komunikace - Sudkov Školka"
               date="28.10.2024 - 31.10.2024"
               description="Likvidace původního asfaltového povrchu, nahrazení zámkovou dlažbou."
@@ -301,7 +356,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Drenaz1, Drenaz2]}
+              images={[Drenaz2]}
               title="Odvodnění šachet pro sněžná děla"
               date="20.10.2024 - 30.10.2024"
               description="Odvodnění šachet pro sněžná děla"
@@ -311,7 +366,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Poulik361, Poulik362, Poulik363, Poulik364]}
+              images={[Poulik364]}
               title="I Zámková dlažba 36m2"
               date="8.7.2024 - 9.7.2024"
               description="Navázání obrub na již postavené ztracené bednění, zhotovení lože ze štěrku frakce 4-8, kladení zámkové dlažby. Prostor bude sloužit jako letní kuchyň."
@@ -320,7 +375,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[PoulikModel1, PoulikModel2, PoulikModel3, PoulikModel4]}
+              images={[PoulikModel4]}
               title="II Úprava terénu před dlažbou"
               date="10.7.2024"
               description="Úprava terénu ve spádu od zámkové dlažby."
@@ -330,7 +385,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Pospa2, Pospa1, Pospa3, Pospa4]}
+              images={[Pospa4]}
               title="I Přípravné zemní práce kolem RD"
               date="26.6.2024 - 27.6.2024"
               description="Odkop hlíny v prostorech mezi obrubníky a domem, rozvoz štěrků pod dlažbu, příprava prostor pro pergolu, výkop drážky pro štěrk pod gabiony."
@@ -340,7 +395,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[PospaModel1, PospaModel2, PospaModel3, PospaModel4]}
+              images={[PospaModel4]}
               title="II Modelování břehu na hranici pozemku"
               date="12.7.2024"
               description="Navýšení břehu ze zbylého materiálu z odkopu prostor pro pergolu. Na břehu bude v budoucnu stát pletivový plot."
@@ -350,7 +405,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Sloupy1, Sloupy2]}
+              images={[Sloupy2]}
               title="III Betonové sloupy"
               date="18.7.2024 - 19.7.2024"
               description="Vyvrtání děr, zabetonování sloupů pro plot"
@@ -358,18 +413,20 @@ const Realizations = () => {
               technique="TAKEUCHI TB 216 ÜB, THWAITES MACH 2003"
             />
           </SwiperSlide>
-          <SwiperSlide>
+
+          {/* <SwiperSlide>
             <SwiperSlideComponent
-              images={[PospaDlazba1, PospaDlazba2, PospaDlazba3, PospaDlazba4]}
+              images={[PospaDlazba4]}
               title="IV Zámková dlažba 120m2"
               date="25.7.2024 - 26.7.2024"
               description="Hutnění, srovnání podkladu štěrkem 4-8, položení dlažby."
               client="P. Pospíšil"
             />
           </SwiperSlide>
+           */}
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Sumperk151, Sumperk152, Sumperk153, Sumperk154]}
+              images={[Sumperk154]}
               title="Velkoformátová dlažba 16m2"
               date="10.7.2024 - 17.7.2024"
               description="Realizace velkoformátové dlažby na klíč. Kompletní zhotovení včetně úprav terénu."
@@ -380,7 +437,7 @@ const Realizations = () => {
         
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Kolsov1, Kolsov2, Kolsov3, Kolsov4]}
+              images={[Kolsov4]}
               title="I Zděný plot s hliníkovým polatím"
               date="15.8.2023 - 28.8.2023"
               description="Demolice a následná výstavba nového plotu. Bourání, odvoz suti, zemní práce, odvoz přebytečné zeminy, betonáž, hydroizolace, zdění face-blocků, armování, montáž hliníkového polatí."
@@ -390,7 +447,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Kolsov5, Kolsov6, Kolsov7, Kolsov8]}
+              images={[Kolsov8]}
               title="II Zděný plot + dlažba"
               date="1.6.2024 - 3.6.2024"
               description="Dostavení zděného plotu o délce 12m, vybourání staré zídky a panelů, příprava pro zámkovou dlažbu vč. usazení obrubníků."
@@ -400,7 +457,7 @@ const Realizations = () => {
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideComponent
-              images={[Dm1, Dm2, Dm3, Dm4]}
+              images={[Dm4]}
               title="Okapové chodníky Dolní Morava"
               date="1.6.2024 - 3.6.2024"
               description="Obkopání apartmánových domů, zřízení drenáže, rozvoz štěrků, hutnění podkladu, usazení obrub do betonu."
@@ -408,14 +465,14 @@ const Realizations = () => {
               technique="KUBOTA K008-3, Wacker Neuson DT-8"
             />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <SwiperSlideComponent
-              images={[KanalOprava1, KanalOprava2, KanalOprava3, KanalOprava4]}
+              images={[KanalOprava4]}
               title="Oprava kanalizační přípojky z RD"
               date="25.7.2024"
               description="Oprava prokoplé kanalizační přípojky."
             />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
